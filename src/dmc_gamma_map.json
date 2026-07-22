@@ -1,0 +1,5357 @@
+[
+  {
+    "dmc_article": "",
+    "gamma_article": "5130",
+    "color_hex": "#FFFAC2",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "292",
+    "madeira_article": "111*"
+  },
+  {
+    "dmc_article": "445",
+    "gamma_article": "5140",
+    "color_hex": "#F9F287",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "292*",
+    "madeira_article": "102*"
+  },
+  {
+    "dmc_article": "445",
+    "gamma_article": "0041",
+    "color_hex": "#F6F289",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "288",
+    "madeira_article": "103"
+  },
+  {
+    "dmc_article": "445",
+    "gamma_article": "0514",
+    "color_hex": "#FFF276",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "802",
+    "madeira_article": "103"
+  },
+  {
+    "dmc_article": "307",
+    "gamma_article": "3192",
+    "color_hex": "#FCE740",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "289",
+    "madeira_article": "104"
+  },
+  {
+    "dmc_article": "973",
+    "gamma_article": "0042",
+    "color_hex": "#FFE21A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "297",
+    "madeira_article": "105"
+  },
+  {
+    "dmc_article": "444",
+    "gamma_article": "0516",
+    "color_hex": "#FBDF0D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "298*",
+    "madeira_article": "106"
+  },
+  {
+    "dmc_article": "973",
+    "gamma_article": "5165",
+    "color_hex": "#FBD215",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "298",
+    "madeira_article": "106"
+  },
+  {
+    "dmc_article": "3078",
+    "gamma_article": "0101",
+    "color_hex": "#FFF3AD",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "292",
+    "madeira_article": "102"
+  },
+  {
+    "dmc_article": "3078",
+    "gamma_article": "0102",
+    "color_hex": "#FDF09C",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "293",
+    "madeira_article": "110"
+  },
+  {
+    "dmc_article": "727",
+    "gamma_article": "0016",
+    "color_hex": "#FEEE89",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "293",
+    "madeira_article": "102"
+  },
+  {
+    "dmc_article": "726",
+    "gamma_article": "3193",
+    "color_hex": "#FFE35F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "297*",
+    "madeira_article": "108"
+  },
+  {
+    "dmc_article": "725",
+    "gamma_article": "3194",
+    "color_hex": "#FAD558",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "109"
+  },
+  {
+    "dmc_article": "972",
+    "gamma_article": "3197",
+    "color_hex": "#FFB401",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "107"
+  },
+  {
+    "dmc_article": "3823",
+    "gamma_article": "0043",
+    "color_hex": "#FFFCDC",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "386",
+    "madeira_article": "2512"
+  },
+  {
+    "dmc_article": "745",
+    "gamma_article": "0021",
+    "color_hex": "#FFEDA9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "300",
+    "madeira_article": "112*"
+  },
+  {
+    "dmc_article": "744",
+    "gamma_article": "0020",
+    "color_hex": "#FFE276",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "301",
+    "madeira_article": "109"
+  },
+  {
+    "dmc_article": "742",
+    "gamma_article": "0019",
+    "color_hex": "#FFC33A",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "303",
+    "madeira_article": "114*"
+  },
+  {
+    "dmc_article": "741",
+    "gamma_article": "3195",
+    "color_hex": "#FF9500",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "314",
+    "madeira_article": "201"
+  },
+  {
+    "dmc_article": "740",
+    "gamma_article": "3196",
+    "color_hex": "#FF7600",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "316",
+    "madeira_article": "202"
+  },
+  {
+    "dmc_article": "971",
+    "gamma_article": "3198",
+    "color_hex": "#FC7E0C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "316",
+    "madeira_article": "202*"
+  },
+  {
+    "dmc_article": "970",
+    "gamma_article": "3199",
+    "color_hex": "#FF781E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "330*",
+    "madeira_article": "204"
+  },
+  {
+    "dmc_article": "947",
+    "gamma_article": "3200",
+    "color_hex": "#F26922",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "330",
+    "madeira_article": "205"
+  },
+  {
+    "dmc_article": "900",
+    "gamma_article": "3201",
+    "color_hex": "#D45D28",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "326",
+    "madeira_article": "208"
+  },
+  {
+    "dmc_article": "743",
+    "gamma_article": "0104",
+    "color_hex": "#FFDA5A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "302*",
+    "madeira_article": "113"
+  },
+  {
+    "dmc_article": "741",
+    "gamma_article": "0105",
+    "color_hex": "#FEBC46",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "314",
+    "madeira_article": "114*"
+  },
+  {
+    "dmc_article": "722",
+    "gamma_article": "3204",
+    "color_hex": "#FAA463",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "323*",
+    "madeira_article": "307*"
+  },
+  {
+    "dmc_article": "3853",
+    "gamma_article": "0107",
+    "color_hex": "#FC9749",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1003",
+    "madeira_article": "0311"
+  },
+  {
+    "dmc_article": "721",
+    "gamma_article": "0108",
+    "color_hex": "#E4752B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "925",
+    "madeira_article": "0308"
+  },
+  {
+    "dmc_article": "720",
+    "gamma_article": "0109",
+    "color_hex": "#EC6810",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "326",
+    "madeira_article": "0309"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0652",
+    "color_hex": "#EADE77",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "278*",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "734",
+    "gamma_article": "0653",
+    "color_hex": "#C9B639",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "279",
+    "madeira_article": "1610"
+  },
+  {
+    "dmc_article": "833",
+    "gamma_article": "3176",
+    "color_hex": "#BFA43A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "907*",
+    "madeira_article": "2202*"
+  },
+  {
+    "dmc_article": "832",
+    "gamma_article": "0654",
+    "color_hex": "#B19A3F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "907*",
+    "madeira_article": "2202"
+  },
+  {
+    "dmc_article": "831",
+    "gamma_article": "0094",
+    "color_hex": "#957B2F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "277*",
+    "madeira_article": "2201"
+  },
+  {
+    "dmc_article": "830",
+    "gamma_article": "0655",
+    "color_hex": "#8D7529",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "889",
+    "madeira_article": "2112"
+  },
+  {
+    "dmc_article": "830",
+    "gamma_article": "3177",
+    "color_hex": "#806C26",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "277",
+    "madeira_article": "2112*"
+  },
+  {
+    "dmc_article": "829",
+    "gamma_article": "3178",
+    "color_hex": "#6F5422",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "906",
+    "madeira_article": "2114"
+  },
+  {
+    "dmc_article": "3046",
+    "gamma_article": "0093",
+    "color_hex": "#CCBC7D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "887",
+    "madeira_article": "2206"
+  },
+  {
+    "dmc_article": "834",
+    "gamma_article": "3069",
+    "color_hex": "#CAB751",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "874*",
+    "madeira_article": "2206*"
+  },
+  {
+    "dmc_article": "370",
+    "gamma_article": "3068",
+    "color_hex": "#BBAA55",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "888",
+    "madeira_article": "2110"
+  },
+  {
+    "dmc_article": "371",
+    "gamma_article": "3175",
+    "color_hex": "#A08F4D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "854",
+    "madeira_article": "2110"
+  },
+  {
+    "dmc_article": "372",
+    "gamma_article": "0092",
+    "color_hex": "#9C8C4A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "853",
+    "madeira_article": "2110"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0815",
+    "color_hex": "#F9F5B6",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "802",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "734",
+    "gamma_article": "0017",
+    "color_hex": "#D1C66D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "279",
+    "madeira_article": "1610"
+  },
+  {
+    "dmc_article": "733",
+    "gamma_article": "0010",
+    "color_hex": "#A6A036",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "280",
+    "madeira_article": "1611"
+  },
+  {
+    "dmc_article": "732",
+    "gamma_article": "3171",
+    "color_hex": "#91852A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "281",
+    "madeira_article": "1612"
+  },
+  {
+    "dmc_article": "731",
+    "gamma_article": "3172",
+    "color_hex": "#837D2F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "924",
+    "madeira_article": "1612"
+  },
+  {
+    "dmc_article": "730",
+    "gamma_article": "3173",
+    "color_hex": "#746D2B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "924",
+    "madeira_article": "1614"
+  },
+  {
+    "dmc_article": "472",
+    "gamma_article": "0816",
+    "color_hex": "#DEE077",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "254",
+    "madeira_article": "1414"
+  },
+  {
+    "dmc_article": "165",
+    "gamma_article": "3244",
+    "color_hex": "#D7D477",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "802",
+    "madeira_article": "1414*"
+  },
+  {
+    "dmc_article": "3819",
+    "gamma_article": "0817",
+    "color_hex": "#D2D057",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "278",
+    "madeira_article": "2703"
+  },
+  {
+    "dmc_article": "166",
+    "gamma_article": "3245",
+    "color_hex": "#BEC132",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "278",
+    "madeira_article": "2703*"
+  },
+  {
+    "dmc_article": "166",
+    "gamma_article": "0818",
+    "color_hex": "#A8B144",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "265",
+    "madeira_article": "1308"
+  },
+  {
+    "dmc_article": "581",
+    "gamma_article": "3169",
+    "color_hex": "#9FA146",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "280",
+    "madeira_article": "1502"
+  },
+  {
+    "dmc_article": "471",
+    "gamma_article": "0008",
+    "color_hex": "#929937",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "266*",
+    "madeira_article": "1501"
+  },
+  {
+    "dmc_article": "469",
+    "gamma_article": "0090",
+    "color_hex": "#798738",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "267",
+    "madeira_article": "1504"
+  },
+  {
+    "dmc_article": "580",
+    "gamma_article": "3170",
+    "color_hex": "#777830",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "924",
+    "madeira_article": "1503*"
+  },
+  {
+    "dmc_article": "580",
+    "gamma_article": "0820",
+    "color_hex": "#7A8035",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "267",
+    "madeira_article": "1503"
+  },
+  {
+    "dmc_article": "937",
+    "gamma_article": "0821",
+    "color_hex": "#4F5925",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "268",
+    "madeira_article": "1507"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0616",
+    "color_hex": "#33532B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1044",
+    "madeira_article": "2603"
+  },
+  {
+    "dmc_article": "3362",
+    "gamma_article": "0823",
+    "color_hex": "#2E3D1A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "263",
+    "madeira_article": "1601"
+  },
+  {
+    "dmc_article": "3013",
+    "gamma_article": "3066",
+    "color_hex": "#999C6C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "853",
+    "madeira_article": "1511"
+  },
+  {
+    "dmc_article": "3012",
+    "gamma_article": "3067",
+    "color_hex": "#9B9648",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "843",
+    "madeira_article": "1605"
+  },
+  {
+    "dmc_article": "3011",
+    "gamma_article": "3174",
+    "color_hex": "#635F2F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "846",
+    "madeira_article": "1507"
+  },
+  {
+    "dmc_article": "3053",
+    "gamma_article": "0091",
+    "color_hex": "#BAC28B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "261",
+    "madeira_article": "1510"
+  },
+  {
+    "dmc_article": "3363",
+    "gamma_article": "0036",
+    "color_hex": "#72885F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "262",
+    "madeira_article": "1602"
+  },
+  {
+    "dmc_article": "524",
+    "gamma_article": "3165",
+    "color_hex": "#BEC0A8",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "858",
+    "madeira_article": "1511"
+  },
+  {
+    "dmc_article": "523",
+    "gamma_article": "3166",
+    "color_hex": "#A5A888",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "859",
+    "madeira_article": "1512*"
+  },
+  {
+    "dmc_article": "3052",
+    "gamma_article": "3064",
+    "color_hex": "#899770",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "859*",
+    "madeira_article": "1513"
+  },
+  {
+    "dmc_article": "522",
+    "gamma_article": "3065",
+    "color_hex": "#93A181",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "860",
+    "madeira_article": "1512"
+  },
+  {
+    "dmc_article": "520",
+    "gamma_article": "3167",
+    "color_hex": "#4F6035",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "861",
+    "madeira_article": "2603"
+  },
+  {
+    "dmc_article": "3364",
+    "gamma_article": "3168",
+    "color_hex": "#85905C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "260*",
+    "madeira_article": "1509"
+  },
+  {
+    "dmc_article": "3051",
+    "gamma_article": "0035",
+    "color_hex": "#6D6F42",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "681",
+    "madeira_article": "1508"
+  },
+  {
+    "dmc_article": "936",
+    "gamma_article": "3162",
+    "color_hex": "#5D5C2B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "846",
+    "madeira_article": "1505"
+  },
+  {
+    "dmc_article": "935",
+    "gamma_article": "3163",
+    "color_hex": "#4B5035",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "861",
+    "madeira_article": "1508*"
+  },
+  {
+    "dmc_article": "934",
+    "gamma_article": "3164",
+    "color_hex": "#343C1D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "862",
+    "madeira_article": "1506"
+  },
+  {
+    "dmc_article": "369",
+    "gamma_article": "0715",
+    "color_hex": "#CCDCBE",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1043",
+    "madeira_article": "1309*"
+  },
+  {
+    "dmc_article": "368",
+    "gamma_article": "0716",
+    "color_hex": "#91AB84",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "214",
+    "madeira_article": "1310"
+  },
+  {
+    "dmc_article": "988",
+    "gamma_article": "0717",
+    "color_hex": "#76996C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "215",
+    "madeira_article": "1311"
+  },
+  {
+    "dmc_article": "987",
+    "gamma_article": "0718",
+    "color_hex": "#568357",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "244",
+    "madeira_article": "1403"
+  },
+  {
+    "dmc_article": "367",
+    "gamma_article": "0089",
+    "color_hex": "#4C7047",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "217",
+    "madeira_article": "1312"
+  },
+  {
+    "dmc_article": "319",
+    "gamma_article": "0719",
+    "color_hex": "#3E5A2F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "218",
+    "madeira_article": "1313"
+  },
+  {
+    "dmc_article": "895",
+    "gamma_article": "0720",
+    "color_hex": "#29542F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1044",
+    "madeira_article": "1314"
+  },
+  {
+    "dmc_article": "3348",
+    "gamma_article": "6115",
+    "color_hex": "#E3EE9F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "254",
+    "madeira_article": "1604"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0613",
+    "color_hex": "#B3C859",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "265",
+    "madeira_article": "1501"
+  },
+  {
+    "dmc_article": "3347",
+    "gamma_article": "0614",
+    "color_hex": "#78983B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "266",
+    "madeira_article": "1408"
+  },
+  {
+    "dmc_article": "470",
+    "gamma_article": "3161",
+    "color_hex": "#98A859",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "267",
+    "madeira_article": "1502"
+  },
+  {
+    "dmc_article": "988",
+    "gamma_article": "3153",
+    "color_hex": "#88AB5C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "243",
+    "madeira_article": "1402"
+  },
+  {
+    "dmc_article": "3346",
+    "gamma_article": "3155",
+    "color_hex": "#6A823D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "267",
+    "madeira_article": "1407"
+  },
+  {
+    "dmc_article": "3345",
+    "gamma_article": "3156",
+    "color_hex": "#486131",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "268",
+    "madeira_article": "1406"
+  },
+  {
+    "dmc_article": "164",
+    "gamma_article": "3252",
+    "color_hex": "#ABCF8A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "240",
+    "madeira_article": "1209"
+  },
+  {
+    "dmc_article": "989",
+    "gamma_article": "0033",
+    "color_hex": "#87A462",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "242",
+    "madeira_article": "1401"
+  },
+  {
+    "dmc_article": "904",
+    "gamma_article": "0029",
+    "color_hex": "#4F6C33",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "258",
+    "madeira_article": "1413"
+  },
+  {
+    "dmc_article": "986",
+    "gamma_article": "3154",
+    "color_hex": "#1F561F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "246",
+    "madeira_article": "1312"
+  },
+  {
+    "dmc_article": "907",
+    "gamma_article": "3159",
+    "color_hex": "#A9C33E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "255",
+    "madeira_article": "1410"
+  },
+  {
+    "dmc_article": "906",
+    "gamma_article": "3160",
+    "color_hex": "#82AE44",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "256",
+    "madeira_article": "1411"
+  },
+  {
+    "dmc_article": "905",
+    "gamma_article": "0030",
+    "color_hex": "#759A3E",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "257",
+    "madeira_article": "1412"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0206",
+    "color_hex": "#EEF55E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "704",
+    "gamma_article": "0207",
+    "color_hex": "#BAD765",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "256",
+    "madeira_article": "1308"
+  },
+  {
+    "dmc_article": "703",
+    "gamma_article": "3157",
+    "color_hex": "#8CBC5C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "238",
+    "madeira_article": "1307"
+  },
+  {
+    "dmc_article": "703",
+    "gamma_article": "0209",
+    "color_hex": "#70B145",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "238",
+    "madeira_article": "1307"
+  },
+  {
+    "dmc_article": "702",
+    "gamma_article": "0319",
+    "color_hex": "#50A348",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "226",
+    "madeira_article": "1306"
+  },
+  {
+    "dmc_article": "702",
+    "gamma_article": "0210",
+    "color_hex": "#3E9730",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "226",
+    "madeira_article": "1306"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0212",
+    "color_hex": "#3E7D45",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0213",
+    "color_hex": "#2D5F3A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "246*",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "699",
+    "gamma_article": "3158",
+    "color_hex": "#015731",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "923",
+    "madeira_article": "2704"
+  },
+  {
+    "dmc_article": "772",
+    "gamma_article": "0500",
+    "color_hex": "#F3F6D4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "259",
+    "madeira_article": "1604"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0501",
+    "color_hex": "#D9E8A9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "954",
+    "gamma_article": "0502",
+    "color_hex": "#ABD58B",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "241",
+    "madeira_article": "1211"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0316",
+    "color_hex": "#9BD390",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "241",
+    "madeira_article": "1307*"
+  },
+  {
+    "dmc_article": "911",
+    "gamma_article": "0015",
+    "color_hex": "#40A756",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "205",
+    "madeira_article": "1214"
+  },
+  {
+    "dmc_article": "700",
+    "gamma_article": "0014",
+    "color_hex": "#2E9148",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "288",
+    "madeira_article": "1304"
+  },
+  {
+    "dmc_article": "701",
+    "gamma_article": "0321",
+    "color_hex": "#007A3F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "227",
+    "madeira_article": "1305"
+  },
+  {
+    "dmc_article": "909",
+    "gamma_article": "0013",
+    "color_hex": "#00793B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "230",
+    "madeira_article": "1302"
+  },
+  {
+    "dmc_article": "3815",
+    "gamma_article": "0411",
+    "color_hex": "#96C59D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "877",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "320",
+    "gamma_article": "3151",
+    "color_hex": "#6E8A69",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "215",
+    "madeira_article": "1311"
+  },
+  {
+    "dmc_article": "890",
+    "gamma_article": "3152",
+    "color_hex": "#043810",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "218*",
+    "madeira_article": "1314"
+  },
+  {
+    "dmc_article": "955",
+    "gamma_article": "3147",
+    "color_hex": "#B4E8B3",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "206",
+    "madeira_article": "1210"
+  },
+  {
+    "dmc_article": "913",
+    "gamma_article": "3148",
+    "color_hex": "#88C78D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "204",
+    "madeira_article": "1212"
+  },
+  {
+    "dmc_article": "912",
+    "gamma_article": "0504",
+    "color_hex": "#58A96B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "209*",
+    "madeira_article": "1213*"
+  },
+  {
+    "dmc_article": "910",
+    "gamma_article": "0088",
+    "color_hex": "#008C4C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "229",
+    "madeira_article": "1301"
+  },
+  {
+    "dmc_article": "3818",
+    "gamma_article": "0414",
+    "color_hex": "#007C3D",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "211",
+    "madeira_article": "1205"
+  },
+  {
+    "dmc_article": "3818",
+    "gamma_article": "3149",
+    "color_hex": "#005D2E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "923",
+    "madeira_article": "2704"
+  },
+  {
+    "dmc_article": "966",
+    "gamma_article": "3150",
+    "color_hex": "#BBD7AE",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "206",
+    "madeira_article": "1209"
+  },
+  {
+    "dmc_article": "564, 966",
+    "gamma_article": "4105",
+    "color_hex": "#B8CEA6",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "240",
+    "madeira_article": "1209"
+  },
+  {
+    "dmc_article": "563",
+    "gamma_article": "3140",
+    "color_hex": "#A2CCAA",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "208",
+    "madeira_article": "1207"
+  },
+  {
+    "dmc_article": "562",
+    "gamma_article": "3141",
+    "color_hex": "#649A73",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "216",
+    "madeira_article": "1206*"
+  },
+  {
+    "dmc_article": "505",
+    "gamma_article": "3246",
+    "color_hex": "#4A805B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "210",
+    "madeira_article": "1205"
+  },
+  {
+    "dmc_article": "3813",
+    "gamma_article": "3144",
+    "color_hex": "#B8CEBE",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "875",
+    "madeira_article": "1101*"
+  },
+  {
+    "dmc_article": "502",
+    "gamma_article": "3145",
+    "color_hex": "#799A83",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "877*",
+    "madeira_article": "1703"
+  },
+  {
+    "dmc_article": "3817",
+    "gamma_article": "3061",
+    "color_hex": "#A6C5B4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "875",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3816",
+    "gamma_article": "3062",
+    "color_hex": "#699D85",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "876*",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "163",
+    "gamma_article": "3063",
+    "color_hex": "#59896F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "216*",
+    "madeira_article": "1703"
+  },
+  {
+    "dmc_article": "3815",
+    "gamma_article": "3143",
+    "color_hex": "#4C7C60",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "877",
+    "madeira_article": "1703*"
+  },
+  {
+    "dmc_article": "561",
+    "gamma_article": "3142",
+    "color_hex": "#2F644B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "878, 212",
+    "madeira_article": "1205*"
+  },
+  {
+    "dmc_article": "504",
+    "gamma_article": "0953",
+    "color_hex": "#D1E2D7",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "206*",
+    "madeira_article": "1101"
+  },
+  {
+    "dmc_article": "503",
+    "gamma_article": "0954",
+    "color_hex": "#8EBEA9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "876",
+    "madeira_article": "1702*"
+  },
+  {
+    "dmc_article": "163",
+    "gamma_article": "0956",
+    "color_hex": "#488269",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "878",
+    "madeira_article": "1703"
+  },
+  {
+    "dmc_article": "501",
+    "gamma_article": "0957",
+    "color_hex": "#496F5C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "217",
+    "madeira_article": "1704"
+  },
+  {
+    "dmc_article": "561",
+    "gamma_article": "0958",
+    "color_hex": "#44684E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "18*",
+    "madeira_article": "1704*"
+  },
+  {
+    "dmc_article": "500",
+    "gamma_article": "0960",
+    "color_hex": "#14361E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "879",
+    "madeira_article": "1705"
+  },
+  {
+    "dmc_article": "993",
+    "gamma_article": "3137",
+    "color_hex": "#8EC2B3",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1070",
+    "madeira_article": "1201*"
+  },
+  {
+    "dmc_article": "992",
+    "gamma_article": "3060",
+    "color_hex": "#6CBFA8",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1072",
+    "madeira_article": "1201"
+  },
+  {
+    "dmc_article": "3814",
+    "gamma_article": "3138",
+    "color_hex": "#3F8878",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1074",
+    "madeira_article": "1203*"
+  },
+  {
+    "dmc_article": "991",
+    "gamma_article": "3139",
+    "color_hex": "#176A59",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1076",
+    "madeira_article": "1204"
+  },
+  {
+    "dmc_article": "3851",
+    "gamma_article": "3134",
+    "color_hex": "#56B69C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "187*",
+    "madeira_article": "1202"
+  },
+  {
+    "dmc_article": "943",
+    "gamma_article": "3135",
+    "color_hex": "#009A7B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "188*",
+    "madeira_article": "1203*"
+  },
+  {
+    "dmc_article": "3850",
+    "gamma_article": "3136",
+    "color_hex": "#08926F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "189*",
+    "madeira_article": "1203"
+  },
+  {
+    "dmc_article": "991",
+    "gamma_article": "0506",
+    "color_hex": "#00765C",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "1104",
+    "madeira_article": "1204"
+  },
+  {
+    "dmc_article": "3811",
+    "gamma_article": "6035",
+    "color_hex": "#CAE8DE",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "1092",
+    "madeira_article": "1101*"
+  },
+  {
+    "dmc_article": "964",
+    "gamma_article": "3132",
+    "color_hex": "#9CD3CC",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "185",
+    "madeira_article": "1112"
+  },
+  {
+    "dmc_article": "959",
+    "gamma_article": "0605",
+    "color_hex": "#8FD3D4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "186",
+    "madeira_article": "1113"
+  },
+  {
+    "dmc_article": "958",
+    "gamma_article": "0606",
+    "color_hex": "#51C0BB",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "187",
+    "madeira_article": "1114"
+  },
+  {
+    "dmc_article": "3812",
+    "gamma_article": "3133",
+    "color_hex": "#008679",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "188",
+    "madeira_article": "2706"
+  },
+  {
+    "dmc_article": "3849",
+    "gamma_article": "3058",
+    "color_hex": "#6EB2A7",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1070",
+    "madeira_article": "1111"
+  },
+  {
+    "dmc_article": "3848",
+    "gamma_article": "3059",
+    "color_hex": "#42917F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1074",
+    "madeira_article": "1109"
+  },
+  {
+    "dmc_article": "3812",
+    "gamma_article": "6075",
+    "color_hex": "#028063",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "189",
+    "madeira_article": "2705"
+  },
+  {
+    "dmc_article": "3847",
+    "gamma_article": "3131",
+    "color_hex": "#00604E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1076",
+    "madeira_article": "2507*"
+  },
+  {
+    "dmc_article": "747",
+    "gamma_article": "0852",
+    "color_hex": "#D3E9E7",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "158",
+    "madeira_article": "1104"
+  },
+  {
+    "dmc_article": "3811",
+    "gamma_article": "0853",
+    "color_hex": "#C4E7E8",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1060",
+    "madeira_article": "1101"
+  },
+  {
+    "dmc_article": "598",
+    "gamma_article": "0854",
+    "color_hex": "#A5DBDE",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "167",
+    "madeira_article": "1014*"
+  },
+  {
+    "dmc_article": "3766",
+    "gamma_article": "0855",
+    "color_hex": "#7CBEC6",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "167",
+    "madeira_article": "1109"
+  },
+  {
+    "dmc_article": "3810",
+    "gamma_article": "0856",
+    "color_hex": "#4FA1A9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "168",
+    "madeira_article": "1108"
+  },
+  {
+    "dmc_article": "3809",
+    "gamma_article": "0857",
+    "color_hex": "#1C869B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1066",
+    "madeira_article": "2506"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0858",
+    "color_hex": "#036A78",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "2507"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0859",
+    "color_hex": "#005868",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3808",
+    "gamma_article": "0860",
+    "color_hex": "#0C464B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1068*",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "598",
+    "gamma_article": "3130",
+    "color_hex": "#B4D5D4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1062",
+    "madeira_article": "1111"
+  },
+  {
+    "dmc_article": "597",
+    "gamma_article": "3056",
+    "color_hex": "#7FB5C0",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1064",
+    "madeira_article": "1110*"
+  },
+  {
+    "dmc_article": "807",
+    "gamma_article": "3127",
+    "color_hex": "#70A8B3",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "168",
+    "madeira_article": "1105"
+  },
+  {
+    "dmc_article": "3810",
+    "gamma_article": "3057",
+    "color_hex": "#44929D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1068*",
+    "madeira_article": "1108*"
+  },
+  {
+    "dmc_article": "3765",
+    "gamma_article": "3129",
+    "color_hex": "#296E87",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "169",
+    "madeira_article": "2506*"
+  },
+  {
+    "dmc_article": "828",
+    "gamma_article": "3053",
+    "color_hex": "#CAE2EB",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "9159",
+    "madeira_article": "1101"
+  },
+  {
+    "dmc_article": "3761",
+    "gamma_article": "3124",
+    "color_hex": "#B8DAE9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "928",
+    "madeira_article": "1014*"
+  },
+  {
+    "dmc_article": "519",
+    "gamma_article": "3054",
+    "color_hex": "#A8C6D8",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1038",
+    "madeira_article": "1002"
+  },
+  {
+    "dmc_article": "518",
+    "gamma_article": "3055",
+    "color_hex": "#6B9CB9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1039",
+    "madeira_article": "1106"
+  },
+  {
+    "dmc_article": "3760",
+    "gamma_article": "3125",
+    "color_hex": "#4F819D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "977",
+    "madeira_article": "1107"
+  },
+  {
+    "dmc_article": "806",
+    "gamma_article": "3128",
+    "color_hex": "#437490",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "978",
+    "madeira_article": "1107"
+  },
+  {
+    "dmc_article": "3846",
+    "gamma_article": "3123",
+    "color_hex": "#63D3E1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3845",
+    "gamma_article": "0087",
+    "color_hex": "#01CBEC",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3844",
+    "gamma_article": "0085",
+    "color_hex": "#04ACCE",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "410",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "996",
+    "gamma_article": "3121",
+    "color_hex": "#57BAF5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1090",
+    "madeira_article": "1103"
+  },
+  {
+    "dmc_article": "3843",
+    "gamma_article": "3122",
+    "color_hex": "#0095D3",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "433, 1089",
+    "madeira_article": "1103*"
+  },
+  {
+    "dmc_article": "995",
+    "gamma_article": "0086",
+    "color_hex": "#0064B0",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "410",
+    "madeira_article": "1102"
+  },
+  {
+    "dmc_article": "162",
+    "gamma_article": "3243",
+    "color_hex": "#CFE5F0",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "160",
+    "madeira_article": "908"
+  },
+  {
+    "dmc_article": "827",
+    "gamma_article": "3115",
+    "color_hex": "#B4D3E3",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "159",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "813",
+    "gamma_article": "3116",
+    "color_hex": "#91B4CE",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "977",
+    "madeira_article": "1711"
+  },
+  {
+    "dmc_article": "826",
+    "gamma_article": "0512",
+    "color_hex": "#5A82A2",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "978*",
+    "madeira_article": "1012"
+  },
+  {
+    "dmc_article": "517",
+    "gamma_article": "0513",
+    "color_hex": "#166D92",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "162",
+    "madeira_article": "1107"
+  },
+  {
+    "dmc_article": "3842",
+    "gamma_article": "3126",
+    "color_hex": "#12557E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "164",
+    "madeira_article": "1010"
+  },
+  {
+    "dmc_article": "824",
+    "gamma_article": "5135",
+    "color_hex": "#124477",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "148",
+    "madeira_article": "1010"
+  },
+  {
+    "dmc_article": "311",
+    "gamma_article": "3119",
+    "color_hex": "#194465",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "148",
+    "madeira_article": "1006"
+  },
+  {
+    "dmc_article": "3841",
+    "gamma_article": "0301",
+    "color_hex": "#CBDDE7",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "9159",
+    "madeira_article": "1001"
+  },
+  {
+    "dmc_article": "800",
+    "gamma_article": "0027",
+    "color_hex": "#C1D3DF",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "159, 144",
+    "madeira_article": "908"
+  },
+  {
+    "dmc_article": "3325",
+    "gamma_article": "3051",
+    "color_hex": "#C6D3E1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "129*",
+    "madeira_article": "909*"
+  },
+  {
+    "dmc_article": "3755",
+    "gamma_article": "3117",
+    "color_hex": "#9FBBD5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "140",
+    "madeira_article": "909*"
+  },
+  {
+    "dmc_article": "799",
+    "gamma_article": "3113",
+    "color_hex": "#789BC0",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "145",
+    "madeira_article": "910"
+  },
+  {
+    "dmc_article": "799",
+    "gamma_article": "0005",
+    "color_hex": "#6E8DB5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "145",
+    "madeira_article": "910"
+  },
+  {
+    "dmc_article": "825",
+    "gamma_article": "0084",
+    "color_hex": "#366390",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "146",
+    "madeira_article": "1011"
+  },
+  {
+    "dmc_article": "824",
+    "gamma_article": "0003",
+    "color_hex": "#3C5780",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "164",
+    "madeira_article": "1010"
+  },
+  {
+    "dmc_article": "312",
+    "gamma_article": "3118",
+    "color_hex": "#2D426B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "979",
+    "madeira_article": "1005"
+  },
+  {
+    "dmc_article": "336",
+    "gamma_article": "0026",
+    "color_hex": "#0C1225",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "150",
+    "madeira_article": "1007"
+  },
+  {
+    "dmc_article": "157",
+    "gamma_article": "3239",
+    "color_hex": "#C8D2E6",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "120",
+    "madeira_article": "907*"
+  },
+  {
+    "dmc_article": "3840",
+    "gamma_article": "0302",
+    "color_hex": "#C1D4EC",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "117",
+    "madeira_article": "907"
+  },
+  {
+    "dmc_article": "794",
+    "gamma_article": "0023",
+    "color_hex": "#8EA7C0",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "175",
+    "madeira_article": "0907"
+  },
+  {
+    "dmc_article": "322",
+    "gamma_article": "3052",
+    "color_hex": "#647E9D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "978",
+    "madeira_article": "1004"
+  },
+  {
+    "dmc_article": "3807",
+    "gamma_article": "0759",
+    "color_hex": "#073563",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "122",
+    "madeira_article": "2702"
+  },
+  {
+    "dmc_article": "939",
+    "gamma_article": "3120",
+    "color_hex": "#02101C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "152",
+    "madeira_article": "1009"
+  },
+  {
+    "dmc_article": "809",
+    "gamma_article": "0304",
+    "color_hex": "#6C91C0",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "130",
+    "madeira_article": "909"
+  },
+  {
+    "dmc_article": "798",
+    "gamma_article": "0082",
+    "color_hex": "#445997",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "131",
+    "madeira_article": "911"
+  },
+  {
+    "dmc_article": "797",
+    "gamma_article": "0306",
+    "color_hex": "#2C4180",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "147",
+    "madeira_article": "912*"
+  },
+  {
+    "dmc_article": "820",
+    "gamma_article": "3114",
+    "color_hex": "#190F60",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "134",
+    "madeira_article": "904"
+  },
+  {
+    "dmc_article": "158",
+    "gamma_article": "3240",
+    "color_hex": "#453F75",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "177",
+    "madeira_article": "2702"
+  },
+  {
+    "dmc_article": "796",
+    "gamma_article": "0083",
+    "color_hex": "#181F66",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "133",
+    "madeira_article": "0913"
+  },
+  {
+    "dmc_article": "791",
+    "gamma_article": "0308",
+    "color_hex": "#161151",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "178",
+    "madeira_article": "904"
+  },
+  {
+    "dmc_article": "3756",
+    "gamma_article": "0752",
+    "color_hex": "#E8EDF3",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1037*",
+    "madeira_article": "2504"
+  },
+  {
+    "dmc_article": "775",
+    "gamma_article": "0753",
+    "color_hex": "#CEDDEA",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1031",
+    "madeira_article": "1001"
+  },
+  {
+    "dmc_article": "3752",
+    "gamma_article": "0754",
+    "color_hex": "#BBC8D6",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "343",
+    "madeira_article": "1001*"
+  },
+  {
+    "dmc_article": "932",
+    "gamma_article": "0755",
+    "color_hex": "#A4B5C6",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1033",
+    "madeira_article": "1710"
+  },
+  {
+    "dmc_article": "794",
+    "gamma_article": "0756",
+    "color_hex": "#7D98B5",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "806*",
+    "madeira_article": "1003"
+  },
+  {
+    "dmc_article": "334",
+    "gamma_article": "0757",
+    "color_hex": "#4C698C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "978",
+    "madeira_article": "1004"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0758",
+    "color_hex": "#3B586D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1035",
+    "madeira_article": "1712"
+  },
+  {
+    "dmc_article": "159",
+    "gamma_article": "3049",
+    "color_hex": "#B8BFD2",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "901"
+  },
+  {
+    "dmc_article": "159",
+    "gamma_article": "3241",
+    "color_hex": "#9AA4C2",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "901"
+  },
+  {
+    "dmc_article": "160",
+    "gamma_article": "3050",
+    "color_hex": "#8C98B4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "806*",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "161",
+    "gamma_article": "3242",
+    "color_hex": "#6A6983",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "793",
+    "gamma_article": "3111",
+    "color_hex": "#686D8D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "176",
+    "madeira_article": "906*"
+  },
+  {
+    "dmc_article": "3838",
+    "gamma_article": "3112",
+    "color_hex": "#62669A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "177",
+    "madeira_article": "905*"
+  },
+  {
+    "dmc_article": "3747",
+    "gamma_article": "3109",
+    "color_hex": "#BCC0D8",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "901*"
+  },
+  {
+    "dmc_article": "341",
+    "gamma_article": "3047",
+    "color_hex": "#A2ACCD",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "117",
+    "madeira_article": "901*"
+  },
+  {
+    "dmc_article": "3839",
+    "gamma_article": "0081",
+    "color_hex": "#94A8C9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "176",
+    "madeira_article": "902"
+  },
+  {
+    "dmc_article": "156",
+    "gamma_article": "3048",
+    "color_hex": "#8692BB",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "118",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "155",
+    "gamma_article": "3238",
+    "color_hex": "#AB9AC6",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1030*",
+    "madeira_article": "902*"
+  },
+  {
+    "dmc_article": "340",
+    "gamma_article": "0078",
+    "color_hex": "#9389C1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "118",
+    "madeira_article": "902"
+  },
+  {
+    "dmc_article": "792",
+    "gamma_article": "0080",
+    "color_hex": "#7971A0",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "941",
+    "madeira_article": "905"
+  },
+  {
+    "dmc_article": "3746",
+    "gamma_article": "3110",
+    "color_hex": "#8572A4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1030",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "333",
+    "gamma_article": "0079",
+    "color_hex": "#6C5086",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "119",
+    "madeira_article": "903"
+  },
+  {
+    "dmc_article": "211",
+    "gamma_article": "1095",
+    "color_hex": "#D0C8E4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "342",
+    "madeira_article": "801"
+  },
+  {
+    "dmc_article": "210",
+    "gamma_article": "0076",
+    "color_hex": "#CEB6E4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "108",
+    "madeira_article": "802"
+  },
+  {
+    "dmc_article": "209",
+    "gamma_article": "3107",
+    "color_hex": "#B698C6",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "803"
+  },
+  {
+    "dmc_article": "208",
+    "gamma_article": "0111",
+    "color_hex": "#9F65A4",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "111",
+    "madeira_article": "0804*"
+  },
+  {
+    "dmc_article": "3837",
+    "gamma_article": "0112",
+    "color_hex": "#7C4087",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "100",
+    "madeira_article": "0712"
+  },
+  {
+    "dmc_article": "553",
+    "gamma_article": "0074",
+    "color_hex": "#A772A4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "98",
+    "madeira_article": "0712"
+  },
+  {
+    "dmc_article": "552",
+    "gamma_article": "0077",
+    "color_hex": "#7B3F6C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "99",
+    "madeira_article": "0713"
+  },
+  {
+    "dmc_article": "327",
+    "gamma_article": "3108",
+    "color_hex": "#723657",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "100*",
+    "madeira_article": "805*"
+  },
+  {
+    "dmc_article": "550",
+    "gamma_article": "0075",
+    "color_hex": "#541244",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "102",
+    "madeira_article": "0714"
+  },
+  {
+    "dmc_article": "3836",
+    "gamma_article": "0068",
+    "color_hex": "#C1AEC2",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "90",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "554",
+    "gamma_article": "0727",
+    "color_hex": "#AE99B1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "97",
+    "madeira_article": "0711"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0729",
+    "color_hex": "#917297",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3834",
+    "gamma_article": "3102",
+    "color_hex": "#642441",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "805"
+  },
+  {
+    "dmc_article": "154",
+    "gamma_article": "3237",
+    "color_hex": "#4C1A31",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "72",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3743",
+    "gamma_article": "0725",
+    "color_hex": "#C7BAC7",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "869",
+    "madeira_article": "2611"
+  },
+  {
+    "dmc_article": "452",
+    "gamma_article": "0067",
+    "color_hex": "#AB979E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "232",
+    "madeira_article": "1807*"
+  },
+  {
+    "dmc_article": "3041",
+    "gamma_article": "3017",
+    "color_hex": "#966E6E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "871",
+    "madeira_article": "806"
+  },
+  {
+    "dmc_article": "3740",
+    "gamma_article": "3101",
+    "color_hex": "#72535A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "873",
+    "madeira_article": "806"
+  },
+  {
+    "dmc_article": "153",
+    "gamma_article": "3251",
+    "color_hex": "#DFC0DB",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "95",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3609",
+    "gamma_article": "6080",
+    "color_hex": "#EBC7DF",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "90",
+    "madeira_article": "710*"
+  },
+  {
+    "dmc_article": "3609",
+    "gamma_article": "0037",
+    "color_hex": "#E9B8D9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "85",
+    "madeira_article": "710"
+  },
+  {
+    "dmc_article": "316",
+    "gamma_article": "3098",
+    "color_hex": "#C68C9F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1017*",
+    "madeira_article": "809*"
+  },
+  {
+    "dmc_article": "3608",
+    "gamma_article": "0609",
+    "color_hex": "#C07BA3",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "86",
+    "madeira_article": "709*"
+  },
+  {
+    "dmc_article": "3607",
+    "gamma_article": "0072",
+    "color_hex": "#B34E8C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "87",
+    "madeira_article": "708"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0611",
+    "color_hex": "#B04A83",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "78*",
+    "madeira_article": "706"
+  },
+  {
+    "dmc_article": "718",
+    "gamma_article": "0073",
+    "color_hex": "#9F2D6F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "88",
+    "madeira_article": "707"
+  },
+  {
+    "dmc_article": "917",
+    "gamma_article": "0031",
+    "color_hex": "#832A58",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "89",
+    "madeira_article": "706"
+  },
+  {
+    "dmc_article": "915",
+    "gamma_article": "3106",
+    "color_hex": "#800137",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1029",
+    "madeira_article": "705"
+  },
+  {
+    "dmc_article": "963",
+    "gamma_article": "0201",
+    "color_hex": "#FAD0D5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "73",
+    "madeira_article": "502"
+  },
+  {
+    "dmc_article": "604",
+    "gamma_article": "0202",
+    "color_hex": "#F0B7D2",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "50",
+    "madeira_article": "606"
+  },
+  {
+    "dmc_article": "604",
+    "gamma_article": "0070",
+    "color_hex": "#EFA8CA",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "55",
+    "madeira_article": "614"
+  },
+  {
+    "dmc_article": "3806",
+    "gamma_article": "0402",
+    "color_hex": "#F19AC2",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "62",
+    "madeira_article": "701"
+  },
+  {
+    "dmc_article": "603",
+    "gamma_article": "0204",
+    "color_hex": "#EF7BA1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "62",
+    "madeira_article": "701"
+  },
+  {
+    "dmc_article": "3805",
+    "gamma_article": "0069",
+    "color_hex": "#CE507F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "63",
+    "madeira_article": "702*"
+  },
+  {
+    "dmc_article": "602",
+    "gamma_article": "0071",
+    "color_hex": "#D1466C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "63*",
+    "madeira_article": "611"
+  },
+  {
+    "dmc_article": "601",
+    "gamma_article": "3104",
+    "color_hex": "#D34067",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "63*",
+    "madeira_article": "610"
+  },
+  {
+    "dmc_article": "600",
+    "gamma_article": "3105",
+    "color_hex": "#BF1C48",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "59*",
+    "madeira_article": "507"
+  },
+  {
+    "dmc_article": "3804",
+    "gamma_article": "3103",
+    "color_hex": "#C33C62",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "63",
+    "madeira_article": "604"
+  },
+  {
+    "dmc_article": "602",
+    "gamma_article": "0404",
+    "color_hex": "#CA0B51",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "57",
+    "madeira_article": "703"
+  },
+  {
+    "dmc_article": "818",
+    "gamma_article": "0902",
+    "color_hex": "#F9D6DD",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "48",
+    "madeira_article": "502*"
+  },
+  {
+    "dmc_article": "3326",
+    "gamma_article": "0066",
+    "color_hex": "#F7B4B7",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "36",
+    "madeira_article": "504"
+  },
+  {
+    "dmc_article": "776",
+    "gamma_article": "3087",
+    "color_hex": "#EEAEB0",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "36",
+    "madeira_article": "503"
+  },
+  {
+    "dmc_article": "3733",
+    "gamma_article": "0065",
+    "color_hex": "#EDA6AC",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1023",
+    "madeira_article": "813"
+  },
+  {
+    "dmc_article": "899",
+    "gamma_article": "3088",
+    "color_hex": "#EE8593",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "76",
+    "madeira_article": "609"
+  },
+  {
+    "dmc_article": "335",
+    "gamma_article": "3089",
+    "color_hex": "#E56D7F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "76*",
+    "madeira_article": "506"
+  },
+  {
+    "dmc_article": "309",
+    "gamma_article": "3090",
+    "color_hex": "#B73745",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "42",
+    "madeira_article": "507*"
+  },
+  {
+    "dmc_article": "151",
+    "gamma_article": "3236",
+    "color_hex": "#ECB9BC",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "73",
+    "madeira_article": "607"
+  },
+  {
+    "dmc_article": "3354",
+    "gamma_article": "0904",
+    "color_hex": "#F1B3BF",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "66*",
+    "madeira_article": "606"
+  },
+  {
+    "dmc_article": "3689",
+    "gamma_article": "3093",
+    "color_hex": "#E8B9C5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "74",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3354",
+    "gamma_article": "3091",
+    "color_hex": "#E5ABAF",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "74*",
+    "madeira_article": "607"
+  },
+  {
+    "dmc_article": "3688",
+    "gamma_article": "0905",
+    "color_hex": "#E6849A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "68",
+    "madeira_article": "605*"
+  },
+  {
+    "dmc_article": "3687",
+    "gamma_article": "0906",
+    "color_hex": "#C2596D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "79",
+    "madeira_article": "605"
+  },
+  {
+    "dmc_article": "3731",
+    "gamma_article": "3092",
+    "color_hex": "#C65A6B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "76",
+    "madeira_article": "506"
+  },
+  {
+    "dmc_article": "150",
+    "gamma_article": "3235",
+    "color_hex": "#93203A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "59",
+    "madeira_article": "509"
+  },
+  {
+    "dmc_article": "3803",
+    "gamma_article": "3094",
+    "color_hex": "#863248",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1028",
+    "madeira_article": "2609"
+  },
+  {
+    "dmc_article": "3803",
+    "gamma_article": "0907",
+    "color_hex": "#912644",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "65",
+    "madeira_article": "2609*"
+  },
+  {
+    "dmc_article": "3685",
+    "gamma_article": "0038",
+    "color_hex": "#7D3248",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1028",
+    "madeira_article": "2609"
+  },
+  {
+    "dmc_article": "777",
+    "gamma_article": "0406",
+    "color_hex": "#822741",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "65",
+    "madeira_article": "508"
+  },
+  {
+    "dmc_article": "814",
+    "gamma_article": "0407",
+    "color_hex": "#711F2E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "45",
+    "madeira_article": "514"
+  },
+  {
+    "dmc_article": "3685",
+    "gamma_article": "0908",
+    "color_hex": "#742338",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1028",
+    "madeira_article": "2609"
+  },
+  {
+    "dmc_article": "814",
+    "gamma_article": "0409",
+    "color_hex": "#5F1F2C",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "45",
+    "madeira_article": "2608"
+  },
+  {
+    "dmc_article": "154",
+    "gamma_article": "0909",
+    "color_hex": "#581727",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "873",
+    "madeira_article": "2607"
+  },
+  {
+    "dmc_article": "902",
+    "gamma_article": "0410",
+    "color_hex": "#4E1622",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "44",
+    "madeira_article": "2607"
+  },
+  {
+    "dmc_article": "224",
+    "gamma_article": "0875",
+    "color_hex": "#E9C4C9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "23*",
+    "madeira_article": "808*"
+  },
+  {
+    "dmc_article": "3727",
+    "gamma_article": "3016",
+    "color_hex": "#E6BCC3",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1016",
+    "madeira_article": "2610"
+  },
+  {
+    "dmc_article": "778",
+    "gamma_article": "0876",
+    "color_hex": "#DDB3B1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "968",
+    "madeira_article": "808"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0877",
+    "color_hex": "#BB7F83",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1017",
+    "madeira_article": "809"
+  },
+  {
+    "dmc_article": "3726",
+    "gamma_article": "0879",
+    "color_hex": "#874C49",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "1018",
+    "madeira_article": "810"
+  },
+  {
+    "dmc_article": "315",
+    "gamma_article": "3099",
+    "color_hex": "#824646",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1019",
+    "madeira_article": "810*"
+  },
+  {
+    "dmc_article": "3802",
+    "gamma_article": "3100",
+    "color_hex": "#6F2E35",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1019*",
+    "madeira_article": "2606"
+  },
+  {
+    "dmc_article": "3716",
+    "gamma_article": "3081",
+    "color_hex": "#FCB1BA",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "25",
+    "madeira_article": "607"
+  },
+  {
+    "dmc_article": "962",
+    "gamma_article": "3082",
+    "color_hex": "#F08D9F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "76",
+    "madeira_article": "609"
+  },
+  {
+    "dmc_article": "961",
+    "gamma_article": "3083",
+    "color_hex": "#DF6877",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "75",
+    "madeira_article": "506"
+  },
+  {
+    "dmc_article": "3833",
+    "gamma_article": "3084",
+    "color_hex": "#E8868C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1023",
+    "madeira_article": "414"
+  },
+  {
+    "dmc_article": "3832",
+    "gamma_article": "3085",
+    "color_hex": "#D55D63",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "28",
+    "madeira_article": "506"
+  },
+  {
+    "dmc_article": "3831",
+    "gamma_article": "3086",
+    "color_hex": "#B33034",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1006*",
+    "madeira_article": "610"
+  },
+  {
+    "dmc_article": "304",
+    "gamma_article": "4055",
+    "color_hex": "#AA102E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "19",
+    "madeira_article": "0508"
+  },
+  {
+    "dmc_article": "957",
+    "gamma_article": "3079",
+    "color_hex": "#F9AFB7",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "25",
+    "madeira_article": "612"
+  },
+  {
+    "dmc_article": "894",
+    "gamma_article": "3077",
+    "color_hex": "#F999A5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "26",
+    "madeira_article": "408"
+  },
+  {
+    "dmc_article": "956",
+    "gamma_article": "3080",
+    "color_hex": "#FF7A90",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "40",
+    "madeira_article": "413"
+  },
+  {
+    "dmc_article": "893",
+    "gamma_article": "0116",
+    "color_hex": "#FC6A84",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "41",
+    "madeira_article": "411"
+  },
+  {
+    "dmc_article": "892",
+    "gamma_article": "3078",
+    "color_hex": "#F85B64",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "33",
+    "madeira_article": "411"
+  },
+  {
+    "dmc_article": "891",
+    "gamma_article": "0118",
+    "color_hex": "#EF4949",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "35",
+    "madeira_article": "412"
+  },
+  {
+    "dmc_article": "819",
+    "gamma_article": "0025",
+    "color_hex": "#FBE2DF",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "271",
+    "madeira_article": "0501"
+  },
+  {
+    "dmc_article": "3708",
+    "gamma_article": "3074",
+    "color_hex": "#FCBBC1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "31",
+    "madeira_article": "408"
+  },
+  {
+    "dmc_article": "3706",
+    "gamma_article": "3075",
+    "color_hex": "#FF988E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "33",
+    "madeira_article": "409"
+  },
+  {
+    "dmc_article": "3705",
+    "gamma_article": "3076",
+    "color_hex": "#F65D5B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "35",
+    "madeira_article": "410"
+  },
+  {
+    "dmc_article": "3801",
+    "gamma_article": "0063",
+    "color_hex": "#E65952",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1098",
+    "madeira_article": "411"
+  },
+  {
+    "dmc_article": "666",
+    "gamma_article": "0012",
+    "color_hex": "#E83124",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "46",
+    "madeira_article": "210"
+  },
+  {
+    "dmc_article": "666",
+    "gamma_article": "0119",
+    "color_hex": "#D82E26",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "46",
+    "madeira_article": "411"
+  },
+  {
+    "dmc_article": "321",
+    "gamma_article": "0120",
+    "color_hex": "#CE1F32",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "47",
+    "madeira_article": "507"
+  },
+  {
+    "dmc_article": "347",
+    "gamma_article": "0062",
+    "color_hex": "#BF3E31",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1025",
+    "madeira_article": "407"
+  },
+  {
+    "dmc_article": "817",
+    "gamma_article": "0024",
+    "color_hex": "#BD2E2E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "13",
+    "madeira_article": "211"
+  },
+  {
+    "dmc_article": "326",
+    "gamma_article": "0064",
+    "color_hex": "#A92332",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1006",
+    "madeira_article": "508"
+  },
+  {
+    "dmc_article": "498",
+    "gamma_article": "0709",
+    "color_hex": "#98232C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1005",
+    "madeira_article": "511"
+  },
+  {
+    "dmc_article": "816",
+    "gamma_article": "0869",
+    "color_hex": "#811024",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1005",
+    "madeira_article": "513"
+  },
+  {
+    "dmc_article": "3713",
+    "gamma_article": "3010",
+    "color_hex": "#FCDCDA",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1020",
+    "madeira_article": "502"
+  },
+  {
+    "dmc_article": "761",
+    "gamma_article": "3011",
+    "color_hex": "#F4C4C1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1021",
+    "madeira_article": "404"
+  },
+  {
+    "dmc_article": "760",
+    "gamma_article": "3012",
+    "color_hex": "#E29690",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1022",
+    "madeira_article": "405"
+  },
+  {
+    "dmc_article": "3712",
+    "gamma_article": "3071",
+    "color_hex": "#DB7D73",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1023",
+    "madeira_article": "405*"
+  },
+  {
+    "dmc_article": "3328",
+    "gamma_article": "3072",
+    "color_hex": "#C36154",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1024",
+    "madeira_article": "406"
+  },
+  {
+    "dmc_article": "224",
+    "gamma_article": "3095",
+    "color_hex": "#E5BBB5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "893",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "152",
+    "gamma_article": "3013",
+    "color_hex": "#E4B9B6",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "223",
+    "gamma_article": "3014",
+    "color_hex": "#C57E7A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "895",
+    "madeira_article": "812*"
+  },
+  {
+    "dmc_article": "3722",
+    "gamma_article": "3015",
+    "color_hex": "#A45D55",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1027",
+    "madeira_article": "812"
+  },
+  {
+    "dmc_article": "3721",
+    "gamma_article": "3096",
+    "color_hex": "#AA5048",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "896",
+    "madeira_article": "810"
+  },
+  {
+    "dmc_article": "221",
+    "gamma_article": "3097",
+    "color_hex": "#85312E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "897",
+    "madeira_article": "811"
+  },
+  {
+    "dmc_article": "353",
+    "gamma_article": "0703",
+    "color_hex": "#FDBCA1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "6",
+    "madeira_article": "304"
+  },
+  {
+    "dmc_article": "352",
+    "gamma_article": "3073",
+    "color_hex": "#F69D80",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "9",
+    "madeira_article": "303"
+  },
+  {
+    "dmc_article": "351",
+    "gamma_article": "0705",
+    "color_hex": "#E6876C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "10*",
+    "madeira_article": "214"
+  },
+  {
+    "dmc_article": "350",
+    "gamma_article": "0707",
+    "color_hex": "#E46647",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "11",
+    "madeira_article": "213*"
+  },
+  {
+    "dmc_article": "349",
+    "gamma_article": "0708",
+    "color_hex": "#C24731",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "13*",
+    "madeira_article": "212*"
+  },
+  {
+    "dmc_article": "221",
+    "gamma_article": "0865",
+    "color_hex": "#AC544C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "896",
+    "madeira_article": "401"
+  },
+  {
+    "dmc_article": "815",
+    "gamma_article": "0867",
+    "color_hex": "#9D3030",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "44",
+    "madeira_article": "2502*"
+  },
+  {
+    "dmc_article": "902",
+    "gamma_article": "0028",
+    "color_hex": "#702623",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "022",
+    "madeira_article": "2501"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0871",
+    "color_hex": "#450011",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "72",
+    "madeira_article": "601*"
+  },
+  {
+    "dmc_article": "902",
+    "gamma_article": "0870",
+    "color_hex": "#4F080C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "897",
+    "madeira_article": "601"
+  },
+  {
+    "dmc_article": "948",
+    "gamma_article": "3024",
+    "color_hex": "#FAE9DF",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1011",
+    "madeira_article": "306"
+  },
+  {
+    "dmc_article": "754",
+    "gamma_article": "3025",
+    "color_hex": "#EFC1AA",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1012",
+    "madeira_article": "305"
+  },
+  {
+    "dmc_article": "3771",
+    "gamma_article": "3026",
+    "color_hex": "#DFB090",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "2605"
+  },
+  {
+    "dmc_article": "3830",
+    "gamma_article": "3027",
+    "color_hex": "#B97161",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "5975",
+    "madeira_article": "401*"
+  },
+  {
+    "dmc_article": "355",
+    "gamma_article": "3211",
+    "color_hex": "#9A3B2D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1014",
+    "madeira_article": "401"
+  },
+  {
+    "dmc_article": "3777",
+    "gamma_article": "3212",
+    "color_hex": "#892B21",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1015",
+    "madeira_article": "2502"
+  },
+  {
+    "dmc_article": "225",
+    "gamma_article": "0765",
+    "color_hex": "#ECD0C4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1026",
+    "madeira_article": "814"
+  },
+  {
+    "dmc_article": "3779",
+    "gamma_article": "3213",
+    "color_hex": "#F2C6B8",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1012",
+    "madeira_article": "305"
+  },
+  {
+    "dmc_article": "758",
+    "gamma_article": "0051",
+    "color_hex": "#EAC0B4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "9575",
+    "madeira_article": "403"
+  },
+  {
+    "dmc_article": "3778",
+    "gamma_article": "0767",
+    "color_hex": "#C4856F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1013",
+    "madeira_article": "403"
+  },
+  {
+    "dmc_article": "356",
+    "gamma_article": "0768",
+    "color_hex": "#A06757",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "5975",
+    "madeira_article": "402"
+  },
+  {
+    "dmc_article": "3857",
+    "gamma_article": "0772",
+    "color_hex": "#804133",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "936",
+    "madeira_article": "2311*"
+  },
+  {
+    "dmc_article": "3774",
+    "gamma_article": "3214",
+    "color_hex": "#F6E1D0",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "778",
+    "madeira_article": "1909"
+  },
+  {
+    "dmc_article": "950",
+    "gamma_article": "3030",
+    "color_hex": "#E7CEB9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "4146",
+    "madeira_article": "2309"
+  },
+  {
+    "dmc_article": "3773",
+    "gamma_article": "0052",
+    "color_hex": "#D8B39D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1008",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "407",
+    "gamma_article": "3031",
+    "color_hex": "#C49A87",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "914",
+    "madeira_article": "2312*"
+  },
+  {
+    "dmc_article": "3859",
+    "gamma_article": "3028",
+    "color_hex": "#B68472",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "914",
+    "madeira_article": "2312"
+  },
+  {
+    "dmc_article": "3772",
+    "gamma_article": "3215",
+    "color_hex": "#B8846C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1007",
+    "madeira_article": "2601"
+  },
+  {
+    "dmc_article": "632",
+    "gamma_article": "3216",
+    "color_hex": "#8C593E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "936",
+    "madeira_article": "2311"
+  },
+  {
+    "dmc_article": "3858",
+    "gamma_article": "3029",
+    "color_hex": "#8D5745",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "810"
+  },
+  {
+    "dmc_article": "948",
+    "gamma_article": "0309",
+    "color_hex": "#FEEBE2",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1011",
+    "madeira_article": "306"
+  },
+  {
+    "dmc_article": "967",
+    "gamma_article": "0310",
+    "color_hex": "#FBDBCD",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1012",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3824",
+    "gamma_article": "0045",
+    "color_hex": "#FBCCB8",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "9",
+    "madeira_article": "2503"
+  },
+  {
+    "dmc_article": "3341",
+    "gamma_article": "0312",
+    "color_hex": "#FBBE9D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "328",
+    "madeira_article": "302"
+  },
+  {
+    "dmc_article": "3340",
+    "gamma_article": "3202",
+    "color_hex": "#F38351",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "328",
+    "madeira_article": "301"
+  },
+  {
+    "dmc_article": "351",
+    "gamma_article": "0314",
+    "color_hex": "#F78465",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "328*",
+    "madeira_article": "301"
+  },
+  {
+    "dmc_article": "608",
+    "gamma_article": "0315",
+    "color_hex": "#F06E46",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "332",
+    "madeira_article": "206"
+  },
+  {
+    "dmc_article": "946",
+    "gamma_article": "0044",
+    "color_hex": "#E15729",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "332",
+    "madeira_article": "207"
+  },
+  {
+    "dmc_article": "606",
+    "gamma_article": "0011",
+    "color_hex": "#EA592C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "335",
+    "madeira_article": "209"
+  },
+  {
+    "dmc_article": "3825",
+    "gamma_article": "3203",
+    "color_hex": "#FDC391",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "307*"
+  },
+  {
+    "dmc_article": "922",
+    "gamma_article": "0046",
+    "color_hex": "#D6834D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1003*",
+    "madeira_article": "310"
+  },
+  {
+    "dmc_article": "921",
+    "gamma_article": "3205",
+    "color_hex": "#C36B29",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1004*",
+    "madeira_article": "2306"
+  },
+  {
+    "dmc_article": "920",
+    "gamma_article": "0032",
+    "color_hex": "#A74F2A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1004",
+    "madeira_article": "312"
+  },
+  {
+    "dmc_article": "919",
+    "gamma_article": "3206",
+    "color_hex": "#9B3B1B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "340",
+    "madeira_article": "313"
+  },
+  {
+    "dmc_article": "918",
+    "gamma_article": "0771",
+    "color_hex": "#8C3B1A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "341",
+    "madeira_article": "314"
+  },
+  {
+    "dmc_article": "3770",
+    "gamma_article": "0040",
+    "color_hex": "#F8EEDC",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1009",
+    "madeira_article": "2314"
+  },
+  {
+    "dmc_article": "3856",
+    "gamma_article": "0047",
+    "color_hex": "#EBBC9A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "2309"
+  },
+  {
+    "dmc_article": "402",
+    "gamma_article": "3207",
+    "color_hex": "#E8A76D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1047",
+    "madeira_article": "2301"
+  },
+  {
+    "dmc_article": "951",
+    "gamma_article": "3021",
+    "color_hex": "#F2E0CE",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1010",
+    "madeira_article": "2308"
+  },
+  {
+    "dmc_article": "3855",
+    "gamma_article": "3208",
+    "color_hex": "#F7CA84",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "311",
+    "madeira_article": "2012"
+  },
+  {
+    "dmc_article": "3854",
+    "gamma_article": "3209",
+    "color_hex": "#F7B25C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "311",
+    "madeira_article": "2307"
+  },
+  {
+    "dmc_article": "3827",
+    "gamma_article": "0050",
+    "color_hex": "#E8AA5F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1002",
+    "madeira_article": "2013"
+  },
+  {
+    "dmc_article": "977",
+    "gamma_article": "3210",
+    "color_hex": "#E59034",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1002",
+    "madeira_article": "2211"
+  },
+  {
+    "dmc_article": "976",
+    "gamma_article": "0049",
+    "color_hex": "#E6973F",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "1001",
+    "madeira_article": "2302"
+  },
+  {
+    "dmc_article": "3776",
+    "gamma_article": "0048",
+    "color_hex": "#C27D45",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1048",
+    "madeira_article": "2011"
+  },
+  {
+    "dmc_article": "301",
+    "gamma_article": "3022",
+    "color_hex": "#AB6734",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1049*",
+    "madeira_article": "2306"
+  },
+  {
+    "dmc_article": "400",
+    "gamma_article": "3023",
+    "color_hex": "#934D29",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "351",
+    "madeira_article": "2305"
+  },
+  {
+    "dmc_article": "300",
+    "gamma_article": "0002",
+    "color_hex": "#74401D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "352",
+    "madeira_article": "2304"
+  },
+  {
+    "dmc_article": "945",
+    "gamma_article": "0924",
+    "color_hex": "#E3BE8E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "881",
+    "madeira_article": "1910"
+  },
+  {
+    "dmc_article": "3064",
+    "gamma_article": "0925",
+    "color_hex": "#CDA072",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "883*",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3826",
+    "gamma_article": "0926",
+    "color_hex": "#C38C55",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1049",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0927",
+    "color_hex": "#A96D32",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "355",
+    "madeira_article": "2601"
+  },
+  {
+    "dmc_article": "975",
+    "gamma_article": "0928",
+    "color_hex": "#945C2D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "357",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "433",
+    "gamma_article": "0929",
+    "color_hex": "#825534",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "352",
+    "madeira_article": "2311"
+  },
+  {
+    "dmc_article": "300",
+    "gamma_article": "0930",
+    "color_hex": "#603920",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "352",
+    "madeira_article": "2005"
+  },
+  {
+    "dmc_article": "3822",
+    "gamma_article": "0099",
+    "color_hex": "#F1D863",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "295*",
+    "madeira_article": "0112*"
+  },
+  {
+    "dmc_article": "728",
+    "gamma_article": "3248",
+    "color_hex": "#E8B539",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "306*",
+    "madeira_article": "2509"
+  },
+  {
+    "dmc_article": "783",
+    "gamma_article": "0214",
+    "color_hex": "#D59C4C",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "890",
+    "madeira_article": "2204"
+  },
+  {
+    "dmc_article": "435",
+    "gamma_article": "0007",
+    "color_hex": "#C4863A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1046",
+    "madeira_article": "2010"
+  },
+  {
+    "dmc_article": "434",
+    "gamma_article": "0022",
+    "color_hex": "#B78237",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "310",
+    "madeira_article": "2009"
+  },
+  {
+    "dmc_article": "3821",
+    "gamma_article": "3190",
+    "color_hex": "#E2B73A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "305",
+    "madeira_article": "2510"
+  },
+  {
+    "dmc_article": "3820",
+    "gamma_article": "3020",
+    "color_hex": "#DDB442",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "907",
+    "madeira_article": "2509"
+  },
+  {
+    "dmc_article": "3852",
+    "gamma_article": "3191",
+    "color_hex": "#CC972B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "2203*"
+  },
+  {
+    "dmc_article": "783",
+    "gamma_article": "0097",
+    "color_hex": "#D19D2F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "306",
+    "madeira_article": "2514"
+  },
+  {
+    "dmc_article": "782",
+    "gamma_article": "3185",
+    "color_hex": "#B38132",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "308",
+    "madeira_article": "2210"
+  },
+  {
+    "dmc_article": "780",
+    "gamma_article": "3186",
+    "color_hex": "#9B6324",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "310",
+    "madeira_article": "2214"
+  },
+  {
+    "dmc_article": "676",
+    "gamma_article": "2125",
+    "color_hex": "#EED7A1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "361",
+    "madeira_article": "2207*"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "2130",
+    "color_hex": "#DBAF69",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "362",
+    "madeira_article": "2208"
+  },
+  {
+    "dmc_article": "729",
+    "gamma_article": "3019",
+    "color_hex": "#CC993D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "890",
+    "madeira_article": "2204"
+  },
+  {
+    "dmc_article": "781",
+    "gamma_article": "2135",
+    "color_hex": "#C4944F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "308",
+    "madeira_article": "2209"
+  },
+  {
+    "dmc_article": "680",
+    "gamma_article": "3188",
+    "color_hex": "#AF8334",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "901",
+    "madeira_article": "2210"
+  },
+  {
+    "dmc_article": "3829",
+    "gamma_article": "3189",
+    "color_hex": "#A47829",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "901",
+    "madeira_article": "2210"
+  },
+  {
+    "dmc_article": "781",
+    "gamma_article": "0215",
+    "color_hex": "#BA8225",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "309",
+    "madeira_article": "2104"
+  },
+  {
+    "dmc_article": "780",
+    "gamma_article": "0216",
+    "color_hex": "#936626",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "310",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "433",
+    "gamma_article": "0217",
+    "color_hex": "#7A5127",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "358",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "300",
+    "gamma_article": "0219",
+    "color_hex": "#653C1E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "359",
+    "madeira_article": "2602"
+  },
+  {
+    "dmc_article": "801",
+    "gamma_article": "0055",
+    "color_hex": "#63461F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "359",
+    "madeira_article": "2007"
+  },
+  {
+    "dmc_article": "898",
+    "gamma_article": "0220",
+    "color_hex": "#502F1B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "360",
+    "madeira_article": "2007"
+  },
+  {
+    "dmc_article": "738",
+    "gamma_article": "0098",
+    "color_hex": "#E8D290",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "372",
+    "madeira_article": "2102"
+  },
+  {
+    "dmc_article": "3828",
+    "gamma_article": "3182",
+    "color_hex": "#AF8846",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "373",
+    "madeira_article": "2109"
+  },
+  {
+    "dmc_article": "420",
+    "gamma_article": "3184",
+    "color_hex": "#866226",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "375",
+    "madeira_article": "2105"
+  },
+  {
+    "dmc_article": "869",
+    "gamma_article": "3183",
+    "color_hex": "#775820",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "944",
+    "madeira_article": "2113"
+  },
+  {
+    "dmc_article": "746",
+    "gamma_article": "3187",
+    "color_hex": "#F5F0DF",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "275",
+    "madeira_article": "101"
+  },
+  {
+    "dmc_article": "3047",
+    "gamma_article": "0095",
+    "color_hex": "#ECECD2",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "852",
+    "madeira_article": "2205"
+  },
+  {
+    "dmc_article": "677",
+    "gamma_article": "0096",
+    "color_hex": "#EDE0BA",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "886",
+    "madeira_article": "2207"
+  },
+  {
+    "dmc_article": "437",
+    "gamma_article": "0054",
+    "color_hex": "#E1C395",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "362",
+    "madeira_article": "2012"
+  },
+  {
+    "dmc_article": "436",
+    "gamma_article": "3218",
+    "color_hex": "#C09557",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1045",
+    "madeira_article": "2011"
+  },
+  {
+    "dmc_article": "3045",
+    "gamma_article": "3018",
+    "color_hex": "#B19563",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "888",
+    "madeira_article": "2103"
+  },
+  {
+    "dmc_article": "167",
+    "gamma_article": "3253",
+    "color_hex": "#9D763D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "375",
+    "madeira_article": "2104"
+  },
+  {
+    "dmc_article": "801",
+    "gamma_article": "0657",
+    "color_hex": "#7B5E26",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "359",
+    "madeira_article": "2007"
+  },
+  {
+    "dmc_article": "739",
+    "gamma_article": "0802",
+    "color_hex": "#E2D1B2",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "366",
+    "madeira_article": "2404"
+  },
+  {
+    "dmc_article": "739",
+    "gamma_article": "0018",
+    "color_hex": "#E0D0B0",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "276",
+    "madeira_article": "2001"
+  },
+  {
+    "dmc_article": "738",
+    "gamma_article": "0803",
+    "color_hex": "#D8BF95",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "942",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0804",
+    "color_hex": "#D1B77F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "373*",
+    "madeira_article": "2102"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0805",
+    "color_hex": "#C3A070",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "374",
+    "madeira_article": "2103*"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0806",
+    "color_hex": "#BB935C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "374*",
+    "madeira_article": "2104"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0807",
+    "color_hex": "#A47D4B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "375",
+    "madeira_article": "2009*"
+  },
+  {
+    "dmc_article": "3862",
+    "gamma_article": "0808",
+    "color_hex": "#845F2E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "944*",
+    "madeira_article": "1913"
+  },
+  {
+    "dmc_article": "433",
+    "gamma_article": "0809",
+    "color_hex": "#775437",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "358",
+    "madeira_article": "2008"
+  },
+  {
+    "dmc_article": "838",
+    "gamma_article": "0811",
+    "color_hex": "#573C2A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1088",
+    "madeira_article": "1914"
+  },
+  {
+    "dmc_article": "3031",
+    "gamma_article": "3224",
+    "color_hex": "#442E10",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "905",
+    "madeira_article": "2003"
+  },
+  {
+    "dmc_article": "938",
+    "gamma_article": "0812",
+    "color_hex": "#3B2811",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "381",
+    "madeira_article": "2005"
+  },
+  {
+    "dmc_article": "3371",
+    "gamma_article": "3219",
+    "color_hex": "#2D1705",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "382",
+    "madeira_article": "2004"
+  },
+  {
+    "dmc_article": "3866",
+    "gamma_article": "3042",
+    "color_hex": "#F6F2EB",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "926",
+    "madeira_article": "1908*"
+  },
+  {
+    "dmc_article": "842",
+    "gamma_article": "3220",
+    "color_hex": "#CDB9A4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1080",
+    "madeira_article": "1907"
+  },
+  {
+    "dmc_article": "841",
+    "gamma_article": "0057",
+    "color_hex": "#B39F8C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1082",
+    "madeira_article": "1911"
+  },
+  {
+    "dmc_article": "840",
+    "gamma_article": "3221",
+    "color_hex": "#977E65",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1084",
+    "madeira_article": "1912*"
+  },
+  {
+    "dmc_article": "839",
+    "gamma_article": "3222",
+    "color_hex": "#684E37",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1086",
+    "madeira_article": "1913"
+  },
+  {
+    "dmc_article": "543",
+    "gamma_article": "3033",
+    "color_hex": "#F0E3D4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "933",
+    "madeira_article": "1909"
+  },
+  {
+    "dmc_article": "3864",
+    "gamma_article": "3034",
+    "color_hex": "#C9AF93",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "376",
+    "madeira_article": "1910"
+  },
+  {
+    "dmc_article": "3864",
+    "gamma_article": "0056",
+    "color_hex": "#C3AD9A",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "1080*",
+    "madeira_article": "1906"
+  },
+  {
+    "dmc_article": "3863",
+    "gamma_article": "3035",
+    "color_hex": "#A4866C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "379",
+    "madeira_article": "1912"
+  },
+  {
+    "dmc_article": "3861",
+    "gamma_article": "3217",
+    "color_hex": "#9E887F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "677*",
+    "madeira_article": "1912*"
+  },
+  {
+    "dmc_article": "3860",
+    "gamma_article": "3032",
+    "color_hex": "#947974",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "379",
+    "madeira_article": "0806"
+  },
+  {
+    "dmc_article": "779",
+    "gamma_article": "3249",
+    "color_hex": "#604545",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "613",
+    "gamma_article": "3179",
+    "color_hex": "#BCAE83",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "831",
+    "madeira_article": "1902"
+  },
+  {
+    "dmc_article": "612",
+    "gamma_article": "3180",
+    "color_hex": "#917D4A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "832*",
+    "madeira_article": "2108"
+  },
+  {
+    "dmc_article": "610",
+    "gamma_article": "3181",
+    "color_hex": "#806638",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "898",
+    "madeira_article": "2107*"
+  },
+  {
+    "dmc_article": "3866",
+    "gamma_article": "0034",
+    "color_hex": "#E7E5DD",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "386",
+    "madeira_article": "1908"
+  },
+  {
+    "dmc_article": "712",
+    "gamma_article": "3036",
+    "color_hex": "#E1E1D9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "390",
+    "madeira_article": "1908*"
+  },
+  {
+    "dmc_article": "642",
+    "gamma_article": "0059",
+    "color_hex": "#BAB599",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "392",
+    "madeira_article": "1906"
+  },
+  {
+    "dmc_article": "640",
+    "gamma_article": "3037",
+    "color_hex": "#938962",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "393",
+    "madeira_article": "1813"
+  },
+  {
+    "dmc_article": "3787",
+    "gamma_article": "3227",
+    "color_hex": "#605B45",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "273",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3021",
+    "gamma_article": "3228",
+    "color_hex": "#3B2E08",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "905",
+    "madeira_article": "1904"
+  },
+  {
+    "dmc_article": "3024",
+    "gamma_article": "3038",
+    "color_hex": "#DCDCD7",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "388",
+    "madeira_article": "1805"
+  },
+  {
+    "dmc_article": "3023",
+    "gamma_article": "3039",
+    "color_hex": "#B2AE95",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "899",
+    "madeira_article": "1902*"
+  },
+  {
+    "dmc_article": "3022",
+    "gamma_article": "3040",
+    "color_hex": "#938E6E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "8581*",
+    "madeira_article": "1812"
+  },
+  {
+    "dmc_article": "3865",
+    "gamma_article": "3250",
+    "color_hex": "#FAF9F5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "2",
+    "madeira_article": "2402"
+  },
+  {
+    "dmc_article": "Ecru",
+    "gamma_article": "0001",
+    "color_hex": "#F2EFE5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "831",
+    "madeira_article": "Ecru"
+  },
+  {
+    "dmc_article": "822",
+    "gamma_article": "3225",
+    "color_hex": "#E2DFD3",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "390",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "644",
+    "gamma_article": "3247",
+    "color_hex": "#D6D3C1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "391*",
+    "madeira_article": "1814"
+  },
+  {
+    "dmc_article": "3033",
+    "gamma_article": "0009",
+    "color_hex": "#D7D0C2",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "391",
+    "madeira_article": "2001"
+  },
+  {
+    "dmc_article": "3782",
+    "gamma_article": "0915",
+    "color_hex": "#D2CABA",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1050",
+    "madeira_article": "1902"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0644",
+    "color_hex": "#C2B9A5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "392",
+    "madeira_article": "1812"
+  },
+  {
+    "dmc_article": "3782",
+    "gamma_article": "3041",
+    "color_hex": "#C7BAA2",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "899",
+    "madeira_article": "1907"
+  },
+  {
+    "dmc_article": "3032",
+    "gamma_article": "3226",
+    "color_hex": "#ADA183",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "903",
+    "madeira_article": "2002"
+  },
+  {
+    "dmc_article": "611",
+    "gamma_article": "0917",
+    "color_hex": "#9E9072",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "898",
+    "madeira_article": "1903"
+  },
+  {
+    "dmc_article": "3790",
+    "gamma_article": "0058",
+    "color_hex": "#978266",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "393",
+    "madeira_article": "1903"
+  },
+  {
+    "dmc_article": "3790",
+    "gamma_article": "0919",
+    "color_hex": "#74623F",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "889",
+    "madeira_article": "1905"
+  },
+  {
+    "dmc_article": "3781",
+    "gamma_article": "3223",
+    "color_hex": "#5C4C2D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "904",
+    "madeira_article": "2106*"
+  },
+  {
+    "dmc_article": "453",
+    "gamma_article": "0670",
+    "color_hex": "#E3DCDB",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "231",
+    "madeira_article": "1803"
+  },
+  {
+    "dmc_article": "452",
+    "gamma_article": "0672",
+    "color_hex": "#C5B6B4",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "232*",
+    "madeira_article": "1803*"
+  },
+  {
+    "dmc_article": "452",
+    "gamma_article": "0053",
+    "color_hex": "#B6A7A6",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "232",
+    "madeira_article": "1807"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0673",
+    "color_hex": "#A59993",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "232",
+    "madeira_article": "1807*"
+  },
+  {
+    "dmc_article": "451",
+    "gamma_article": "0674",
+    "color_hex": "#978E87",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "233",
+    "madeira_article": "1808"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0676",
+    "color_hex": "#615145",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "273",
+    "madeira_article": "1810"
+  },
+  {
+    "dmc_article": "3743",
+    "gamma_article": "0416",
+    "color_hex": "#E0DEE0",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "234*",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3042",
+    "gamma_article": "0417",
+    "color_hex": "#CCC1D0",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "870",
+    "madeira_article": "2612"
+  },
+  {
+    "dmc_article": "414",
+    "gamma_article": "0061",
+    "color_hex": "#95909D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "235*",
+    "madeira_article": "1802"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0419",
+    "color_hex": "#6F6577",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "872*",
+    "madeira_article": "1810*"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "4195",
+    "color_hex": "#403A38",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "873",
+    "madeira_article": "1810*"
+  },
+  {
+    "dmc_article": "3072",
+    "gamma_article": "3043",
+    "color_hex": "#E3E6DC",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "847",
+    "madeira_article": "1805"
+  },
+  {
+    "dmc_article": "648",
+    "gamma_article": "3044",
+    "color_hex": "#CECCC5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "900",
+    "madeira_article": "1814*"
+  },
+  {
+    "dmc_article": "648",
+    "gamma_article": "0150",
+    "color_hex": "#D0CFC9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "900",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "647",
+    "gamma_article": "0152",
+    "color_hex": "#ABAFA3",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1040",
+    "madeira_article": "1813"
+  },
+  {
+    "dmc_article": "646",
+    "gamma_article": "0060",
+    "color_hex": "#97978E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": "1812"
+  },
+  {
+    "dmc_article": "645",
+    "gamma_article": "3229",
+    "color_hex": "#646253",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "273*",
+    "madeira_article": "1811"
+  },
+  {
+    "dmc_article": "844",
+    "gamma_article": "0154",
+    "color_hex": "#6C6E58",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1041",
+    "madeira_article": "1810"
+  },
+  {
+    "dmc_article": "645",
+    "gamma_article": "0154*",
+    "color_hex": "#6C6E58",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "273",
+    "madeira_article": "1811"
+  },
+  {
+    "dmc_article": "934",
+    "gamma_article": "0155",
+    "color_hex": "#4D4C34",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1506",
+    "madeira_article": "1810*"
+  },
+  {
+    "dmc_article": "928",
+    "gamma_article": "0661",
+    "color_hex": "#E5EAE9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "274",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "927",
+    "gamma_article": "0662",
+    "color_hex": "#C5D2CF",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "837*",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "927",
+    "gamma_article": "0663",
+    "color_hex": "#A7BEC2",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "838*",
+    "madeira_article": "1708"
+  },
+  {
+    "dmc_article": "926",
+    "gamma_article": "3146",
+    "color_hex": "#789899",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "850",
+    "madeira_article": "1707"
+  },
+  {
+    "dmc_article": "926",
+    "gamma_article": "0664",
+    "color_hex": "#7C999B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "850",
+    "madeira_article": "1707"
+  },
+  {
+    "dmc_article": "3768",
+    "gamma_article": "0039",
+    "color_hex": "#6B8084",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "840",
+    "madeira_article": "2508"
+  },
+  {
+    "dmc_article": "3768",
+    "gamma_article": "0665",
+    "color_hex": "#5F7171",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "840*",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "924",
+    "gamma_article": "0666",
+    "color_hex": "#3B4F45",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "851",
+    "madeira_article": "1706"
+  },
+  {
+    "dmc_article": "168",
+    "gamma_article": "3045",
+    "color_hex": "#CCD2D5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "169",
+    "gamma_article": "3046",
+    "color_hex": "#959BA0",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "535",
+    "gamma_article": "3230",
+    "color_hex": "#504F50",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "400",
+    "madeira_article": "1714, 1809"
+  },
+  {
+    "dmc_article": "762",
+    "gamma_article": "3231",
+    "color_hex": "#E9E9EB",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "234*",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "415",
+    "gamma_article": "0966",
+    "color_hex": "#E6E9EA",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1031",
+    "madeira_article": "2504"
+  },
+  {
+    "dmc_article": "3753",
+    "gamma_article": "0967",
+    "color_hex": "#CCD5DA",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "1032*",
+    "madeira_article": "1001*"
+  },
+  {
+    "dmc_article": "415",
+    "gamma_article": "0006",
+    "color_hex": "#D3D4DB",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "398",
+    "madeira_article": "1803"
+  },
+  {
+    "dmc_article": "318",
+    "gamma_article": "0004",
+    "color_hex": "#B7BBC7",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "399",
+    "madeira_article": "1802*"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "0969",
+    "color_hex": "#ABB3BD",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "235",
+    "madeira_article": "1710*"
+  },
+  {
+    "dmc_article": "931",
+    "gamma_article": "0970",
+    "color_hex": "#8F9CA7",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "1034",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "930",
+    "gamma_article": "0971",
+    "color_hex": "#78828F",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "1035",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3750",
+    "gamma_article": "0972",
+    "color_hex": "#444D58",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "1036",
+    "madeira_article": "1712"
+  },
+  {
+    "dmc_article": "3799",
+    "gamma_article": "3070",
+    "color_hex": "#2F3B36",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "236",
+    "madeira_article": "1713*"
+  },
+  {
+    "dmc_article": "317",
+    "gamma_article": "3232",
+    "color_hex": "#545659",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "400",
+    "madeira_article": "1714"
+  },
+  {
+    "dmc_article": "413",
+    "gamma_article": "3233",
+    "color_hex": "#323A39",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "401*",
+    "madeira_article": "1714"
+  },
+  {
+    "dmc_article": "415",
+    "gamma_article": "3255",
+    "color_hex": "#CED0D5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "398*",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "318",
+    "gamma_article": "3256",
+    "color_hex": "#ADAFBB",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "318",
+    "gamma_article": "3257",
+    "color_hex": "#8F9096",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "317",
+    "gamma_article": "3258",
+    "color_hex": "#5A6067",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "413",
+    "gamma_article": "3259",
+    "color_hex": "#565D59",
+    "color_name": "",
+    "match_quality": "approximate",
+    "anchor_article": "1041*",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "3799",
+    "gamma_article": "3260",
+    "color_hex": "#343936",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "0401*",
+    "madeira_article": "1713"
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5166",
+    "color_hex": "#7AB6D7",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5167",
+    "color_hex": "#61AFD4",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5168",
+    "color_hex": "#2F73B8",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5169",
+    "color_hex": "#B0D1E0",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5170",
+    "color_hex": "#3B597A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5172",
+    "color_hex": "#192031",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5171",
+    "color_hex": "#28466B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5173",
+    "color_hex": "#E7F0EA",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5174",
+    "color_hex": "#5A8D9E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5176",
+    "color_hex": "#FAF3B2",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5175",
+    "color_hex": "#173233",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5177",
+    "color_hex": "#EED04C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5178",
+    "color_hex": "#E5A322",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5179",
+    "color_hex": "#F6F4E3",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5180",
+    "color_hex": "#FFF98E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5181",
+    "color_hex": "#FCE303",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5182",
+    "color_hex": "#C8CAC9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5184",
+    "color_hex": "#2B2E24",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5185",
+    "color_hex": "#222C37",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5186",
+    "color_hex": "#88A0A7",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5188",
+    "color_hex": "#6A7B84",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5191",
+    "color_hex": "#535A4E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5192",
+    "color_hex": "#313C2E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5195",
+    "color_hex": "#212F23",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5194",
+    "color_hex": "#68637E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5193",
+    "color_hex": "#776672",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5196",
+    "color_hex": "#DBF2A7",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5199",
+    "color_hex": "#05E10D",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5198",
+    "color_hex": "#00886C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5197",
+    "color_hex": "#33AC96",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5200",
+    "color_hex": "#F2E0C9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5201",
+    "color_hex": "#F4CCA8",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5202",
+    "color_hex": "#C99A76",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5203",
+    "color_hex": "#88463A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5204",
+    "color_hex": "#2C253E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5207",
+    "color_hex": "#C3ECC1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5208",
+    "color_hex": "#9CCA96",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5206",
+    "color_hex": "#F0E5F1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5205",
+    "color_hex": "#37212C",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5209",
+    "color_hex": "#77BF7E",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5211",
+    "color_hex": "#3FA048",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5210",
+    "color_hex": "#5DAB7B",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5212",
+    "color_hex": "#267030",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5213",
+    "color_hex": "#F5F1DF",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5216",
+    "color_hex": "#C95516",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5217",
+    "color_hex": "#F0DFDE",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5215",
+    "color_hex": "#E6D3B9",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5214",
+    "color_hex": "#F4E8D5",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5219",
+    "color_hex": "#E3B786",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5220",
+    "color_hex": "#4F5A6A",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  },
+  {
+    "dmc_article": "",
+    "gamma_article": "5221",
+    "color_hex": "#B8C7D1",
+    "color_name": "",
+    "match_quality": "exact",
+    "anchor_article": "",
+    "madeira_article": ""
+  }
+]
