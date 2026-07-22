@@ -1,8 +1,6 @@
 # CraftyStock — React version
 
-Single-page React app (React Router, one window) rebuilt from the original
-`index.html` prototype. All screens (Нитки, Бисер, Конвертер, По цвету,
-Хранение, Настройки) are routes rendered inside one persistent layout with a
+Single-page React app (React Router, one window) are routes rendered inside one persistent layout with a
 sidebar — like the web version, but running as a real React app instead of
 manual DOM string-building.
 
