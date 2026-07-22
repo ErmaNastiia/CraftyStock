@@ -39,5 +39,4 @@ npm run preview
 
 Routes: `/threads`, `/threads/:id`, `/beads`, `/beads/:id`, `/converter`,
 `/color`, `/storage`, `/settings`.
-
 #
