@@ -39,7 +39,7 @@ if (firebaseReady) {
 } else {
   // eslint-disable-next-line no-console
   console.warn(
-    "CraftyStock: Firebase config is missing. Copy .env.example to .env.local and fill in your project keys (see README.md).",
+    "Uh oh! We've got a problem.<p>{error.message || error.statusText}</p>",
   );
 }
 
