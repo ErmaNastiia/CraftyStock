@@ -1,10 +1,11 @@
+// `icon` is a lookup key resolved to a component in Sidebar.jsx — kept as a
+// string here so this data file stays framework-agnostic.
 export const TABS = [
-  { id: "threads", label: "Нитки", emoji: "🧵" },
-  { id: "beads", label: "Бисер", emoji: "🔮" },
-  { id: "converter", label: "Конвертер", emoji: "⇄" },
-  { id: "color", label: "По цвету", emoji: "🎨" },
-  { id: "storage", label: "Хранение", emoji: "📦" },
-  { id: "settings", label: "Настройки", emoji: "⚙️" },
+  { id: "threads", label: "Нитки", icon: "thread" },
+  { id: "beads", label: "Бисер", icon: "bead" },
+  { id: "converter", label: "Конвертер", icon: "shuffle" },
+  { id: "storage", label: "Хранение", icon: "package" },
+  { id: "settings", label: "Настройки", icon: "settings" },
 ];
 
 // DMC catalog — generated from dmc_gamma_map.json (445 articles).

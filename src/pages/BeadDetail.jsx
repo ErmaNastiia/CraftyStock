@@ -1,13 +1,18 @@
 import { useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { BEADS, SHL, FNL } from '../catalogData';
 import { useAppState } from '../StateContext';
 import Dot from '../components/Dot';
-import Modal from '../components/Modal';
+import Card from '../components/ui/Card';
+import DetailHeader from '../components/ui/DetailHeader';
+import SectionLabel from '../components/ui/SectionLabel';
+import Stepper from '../components/ui/Stepper';
+import QuickAdjust from '../components/ui/QuickAdjust';
+import LocationPickerModal from '../components/LocationPickerModal';
+import { IconCamera, IconMapPin } from '../components/ui/icons';
 
 export default function BeadDetail() {
   const { id } = useParams();
-  const nav = useNavigate();
   const { bStocks, bQ, bLocMap, locs, setBLoc, clearBLoc } = useAppState();
   const [locModal, setLocModal] = useState(false);
   const b = BEADS.find((x) => x.id === id);
@@ -15,91 +20,82 @@ export default function BeadDetail() {
   const qty = bStocks[b.id] || 0;
   const loc = locs.find((l) => l.id === bLocMap[b.id]);
 
+  const specs = [
+    ['Форма', SHL[b.shape] || b.shape],
+    ['Размер', b.size],
+    ['Покрытие', FNL[b.finish] || b.finish],
+    ['Материал', 'Стекло'],
+  ];
+
   return (
     <div className="scr" id="s-bd">
-      <div className="dh">
-        <button className="bk" onClick={() => nav('/beads')}>← Назад</button>
-        <span className="dt">{b.brand} {b.article}</span>
-        <div style={{ width: 60 }} />
-      </div>
+      <DetailHeader title={`${b.brand} ${b.article}`} backTo="/beads" />
       <div className="sa" style={{ paddingTop: 0 }}>
-        <div style={{ height: 140, background: b.hex, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-          <div className="photo-hint">📷 Добавить фото</div>
+        <div className="detail-hero detail-hero-sm" style={{ background: b.hex }}>
+          <div className="photo-hint">
+            <IconCamera size={16} strokeWidth={1.6} /> Добавить фото
+          </div>
         </div>
-        <div style={{ padding: '0 26px 36px' }}>
-          <div className="slbl" style={{ marginTop: 16 }}>Бисер</div>
-          <div className="card">
-            <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 10 }}>
+        <div className="detail-body">
+          <SectionLabel>Бисер</SectionLabel>
+          <Card>
+            <div className="detail-title-row">
               <div>
-                <div style={{ fontSize: 18, fontWeight: 600, color: 'var(--text)' }}>{b.brand} {b.article}</div>
-                <div style={{ fontSize: 13, color: 'var(--text2)', marginTop: 3 }}>{b.name}</div>
+                <div className="detail-title detail-title-sm">{b.brand} {b.article}</div>
+                <div className="detail-subtitle">{b.name}</div>
               </div>
               <Dot hex={b.hex} size={36} />
             </div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 6 }}>
-              {[['Форма', SHL[b.shape] || b.shape], ['Размер', b.size], ['Покрытие', FNL[b.finish] || b.finish], ['Материал', 'Стекло']].map(([l, v]) => (
-                <div key={l} style={{ background: 'var(--surface2)', borderRadius: 8, padding: '8px 10px' }}>
-                  <div style={{ fontSize: 9, textTransform: 'uppercase', letterSpacing: '.4px', color: 'var(--text3)', marginBottom: 2 }}>{l}</div>
-                  <div style={{ fontSize: 12, fontWeight: 500, color: 'var(--text)' }}>{v}</div>
+            <div className="detail-specs-grid">
+              {specs.map(([l, v]) => (
+                <div key={l} className="detail-spec-tile">
+                  <div className="detail-spec-label">{l}</div>
+                  <div className="detail-spec-value">{v}</div>
                 </div>
               ))}
             </div>
-          </div>
-          <div className="slbl">В запасе</div>
-          <div className="card">
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                <div style={{ width: 8, height: 8, borderRadius: 4, background: qty > 0 ? 'var(--green)' : 'var(--border2)' }} />
-                <span style={{ fontSize: 14, fontWeight: 500, color: 'var(--text)' }}>{qty > 0 ? qty + ' г' : 'Нет в запасе'}</span>
-              </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                <button className="bcb" disabled={qty <= 0} onClick={() => bQ(b.id, -1)}>−</button>
-                <span className="bcv">{qty}</span>
-                <button className="bcb" onClick={() => bQ(b.id, 1)}>+</button>
-              </div>
-            </div>
-            <div className="fbs">
-              {[-5, -1, -0.5, 0.5, 1, 5].map((d) => (
-                <button key={d} className="fb" disabled={qty + d < 0} onClick={() => bQ(b.id, d)}>{d > 0 ? '+' + d : d}г</button>
-              ))}
-            </div>
-          </div>
+          </Card>
 
-          <div className="slbl">Место хранения</div>
-          <div className="card" onClick={() => setLocModal(true)} style={{ cursor: 'pointer' }}>
+          <SectionLabel>В запасе</SectionLabel>
+          <Card>
+            <div className="detail-stock-row">
+              <div className="detail-stock-status">
+                <div className={`stock-dot${qty > 0 ? ' has-stock' : ''}`} />
+                <span className="detail-stock-label">{qty > 0 ? qty + ' г' : 'Нет в запасе'}</span>
+              </div>
+              <Stepper value={qty} onChange={(d) => bQ(b.id, d)} step={1} size="lg" unit="г" />
+            </div>
+            <QuickAdjust deltas={[-5, -1, -0.5, 0.5, 1, 5]} value={qty} onChange={(d) => bQ(b.id, d)} suffix="г" />
+          </Card>
+
+          <SectionLabel>Место хранения</SectionLabel>
+          <Card onClick={() => setLocModal(true)}>
             {loc ? (
-              <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+              <div className="detail-loc-row">
                 <div className="locdot" style={{ background: loc.color }} />
-                <div style={{ flex: 1 }}>
-                  <div style={{ fontSize: 14, fontWeight: 500, color: 'var(--text)' }}>{loc.name}</div>
-                  {loc.desc && <div style={{ fontSize: 11, color: 'var(--text3)', marginTop: 2 }}>{loc.desc}</div>}
+                <div className="row-main">
+                  <div className="detail-loc-name">{loc.name}</div>
+                  {loc.desc && <div className="detail-loc-desc">{loc.desc}</div>}
                 </div>
-                <span style={{ fontSize: 12, color: 'var(--blue)' }}>Изменить</span>
+                <span className="detail-loc-change">Изменить</span>
               </div>
             ) : (
-              <div style={{ display: 'flex', alignItems: 'center', gap: 9, color: 'var(--text3)', fontSize: 13 }}>📦 Не указано — нажми, чтобы выбрать</div>
+              <div className="detail-loc-empty">
+                <IconMapPin size={15} /> Не указано — нажми, чтобы выбрать
+              </div>
             )}
-          </div>
+          </Card>
         </div>
       </div>
 
-      <Modal open={locModal} onClose={() => setLocModal(false)}>
-        <div style={{ fontSize: 16, fontWeight: 600, color: 'var(--text)', marginBottom: 14 }}>Место хранения</div>
-        {!locs.length && <div style={{ textAlign: 'center', padding: 20, color: 'var(--text3)' }}>Добавь места на вкладке «Хранение»</div>}
-        {locs.map((l) => (
-          <div key={l.id} className={`mloc${bLocMap[b.id] === l.id ? ' sel' : ''}`} onClick={() => { setBLoc(b.id, l.id); setLocModal(false); }}>
-            <div className="locdot" style={{ background: l.color }} />
-            <div style={{ flex: 1 }}>
-              <div style={{ fontSize: 14, fontWeight: 500, color: 'var(--text)' }}>{l.name}</div>
-              {l.desc && <div style={{ fontSize: 11, color: 'var(--text3)' }}>{l.desc}</div>}
-            </div>
-            {bLocMap[b.id] === l.id && <span style={{ fontWeight: 600, color: 'var(--text)' }}>✓</span>}
-          </div>
-        ))}
-        {bLocMap[b.id] && (
-          <button onClick={() => { clearBLoc(b.id); setLocModal(false); }} style={{ width: '100%', marginTop: 8, padding: 9, border: 'none', borderRadius: 10, background: 'transparent', cursor: 'pointer', fontSize: 12, color: 'var(--red)', fontFamily: 'inherit' }}>Убрать место хранения</button>
-        )}
-      </Modal>
+      <LocationPickerModal
+        open={locModal}
+        onClose={() => setLocModal(false)}
+        locs={locs}
+        selectedId={bLocMap[b.id]}
+        onSelect={(lid) => { setBLoc(b.id, lid); setLocModal(false); }}
+        onClear={() => { clearBLoc(b.id); setLocModal(false); }}
+      />
     </div>
   );
 }

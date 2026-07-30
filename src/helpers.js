@@ -31,3 +31,32 @@ export function pct(h1, h2) {
 export function fmtQ(v) {
   return v % 1 === 0 ? String(v) : v.toFixed(1);
 }
+
+// Triggers a browser download of `content` as a file named `name`.
+export function dlFile(name, content, type = 'text/plain') {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([content], { type }));
+  a.download = name;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+// Splits a free-form block of text into individual article numbers.
+// Accepts commas, semicolons, whitespace and newlines as separators, and
+// de-duplicates while preserving the first-seen order.
+export function parseArticleList(raw) {
+  const seen = new Set();
+  const out = [];
+  raw
+    .split(/[\s,;]+/)
+    .map((s) => s.trim())
+    .filter(Boolean)
+    .forEach((s) => {
+      const key = s.toLowerCase();
+      if (!seen.has(key)) {
+        seen.add(key);
+        out.push(s);
+      }
+    });
+  return out;
+}

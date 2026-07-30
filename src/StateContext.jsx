@@ -1,4 +1,6 @@
 import { createContext, useContext, useEffect, useRef, useState } from 'react';
+import { doc, setDoc, onSnapshot, serverTimestamp } from './vendor/firebase-bundle.js';
+import { db, firebaseReady } from './firebase';
 
 const StateCtx = createContext(null);
 
@@ -8,6 +10,9 @@ const DEFAULT_LOCS = [
   { id: 'l3', name: 'Зелёная папка', desc: 'Схемы и образцы', color: '#2FA85F' },
 ];
 
+const FIELDS = ['tStocks', 'bStocks', 'tNotes', 'tLocMap', 'bLocMap', 'locs'];
+const LEGACY_KEYS = { tStocks: 'cs_tStocks', bStocks: 'cs_bStocks', tNotes: 'cs_tNotes', tLocMap: 'cs_tLocMap', bLocMap: 'cs_bLocMap', locs: 'cs_locs' };
+
 function load(key, fallback) {
   try {
     const v = localStorage.getItem(key);
@@ -16,43 +21,56 @@ function load(key, fallback) {
     return fallback;
   }
 }
+function save(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch {
+    /* ignore quota errors */
+  }
+}
 
-export function StateProvider({ children }) {
-  const [tStocks, setTStocks] = useState(() => load('cs_tStocks', {}));
-  const [bStocks, setBStocks] = useState(() => load('cs_bStocks', {}));
-  const [tNotes, setTNotes] = useState(() => load('cs_tNotes', {}));
-  const [tLocMap, setTLocMap] = useState(() => load('cs_tLocMap', {}));
-  const [bLocMap, setBLocMap] = useState(() => load('cs_bLocMap', {}));
-  const [locs, setLocs] = useState(() => load('cs_locs', DEFAULT_LOCS));
+// Reads data saved by the pre-Firebase, localStorage-only version of the
+// app (unprefixed cs_* keys) so it can be offered as a one-time import once
+// someone signs in for the first time on a device that already has data.
+function readLegacyData() {
+  const data = {};
+  let hasAny = false;
+  Object.entries(LEGACY_KEYS).forEach(([field, key]) => {
+    const v = load(key, null);
+    if (v && (Array.isArray(v) ? v.length : Object.keys(v).length)) {
+      data[field] = v;
+      hasAny = true;
+    }
+  });
+  return hasAny ? data : null;
+}
+
+function snapshotOf(state) {
+  return JSON.stringify(FIELDS.map((f) => state[f]));
+}
+
+export function StateProvider({ uid, children }) {
+  const [tStocks, setTStocks] = useState(() => load(`cs_${uid}_tStocks`, {}));
+  const [bStocks, setBStocks] = useState(() => load(`cs_${uid}_bStocks`, {}));
+  const [tNotes, setTNotes] = useState(() => load(`cs_${uid}_tNotes`, {}));
+  const [tLocMap, setTLocMap] = useState(() => load(`cs_${uid}_tLocMap`, {}));
+  const [bLocMap, setBLocMap] = useState(() => load(`cs_${uid}_bLocMap`, {}));
+  const [locs, setLocs] = useState(() => load(`cs_${uid}_locs`, DEFAULT_LOCS));
   const [theme, setThemeState] = useState(() => localStorage.getItem('cs_theme') || 'light');
+  const [syncState, setSyncState] = useState('syncing'); // 'syncing' | 'synced' | 'offline'
+  const [pendingImport, setPendingImport] = useState(null);
   const [toastMsg, setToastMsg] = useState('');
   const [toastShow, setToastShow] = useState(false);
   const toastTimer = useRef(null);
+  const lastRemoteJson = useRef(null);
+  const checkedForImport = useRef(false);
 
   useEffect(() => {
     document.body.toggleAttribute('data-dark', theme === 'dark');
   }, [theme]);
-
   useEffect(() => {
-    const save = () => {
-      try {
-        localStorage.setItem('cs_tStocks', JSON.stringify(tStocks));
-        localStorage.setItem('cs_bStocks', JSON.stringify(bStocks));
-        localStorage.setItem('cs_tNotes', JSON.stringify(tNotes));
-        localStorage.setItem('cs_tLocMap', JSON.stringify(tLocMap));
-        localStorage.setItem('cs_bLocMap', JSON.stringify(bLocMap));
-        localStorage.setItem('cs_locs', JSON.stringify(locs));
-        localStorage.setItem('cs_theme', theme);
-      } catch {}
-    };
-    const id = setInterval(save, 3000);
-    window.addEventListener('beforeunload', save);
-    return () => {
-      clearInterval(id);
-      window.removeEventListener('beforeunload', save);
-      save();
-    };
-  }, [tStocks, bStocks, tNotes, tLocMap, bLocMap, locs, theme]);
+    save('cs_theme', theme);
+  }, [theme]);
 
   function toast(msg) {
     setToastMsg(msg);
@@ -60,6 +78,65 @@ export function StateProvider({ children }) {
     clearTimeout(toastTimer.current);
     toastTimer.current = setTimeout(() => setToastShow(false), 2200);
   }
+
+  // Real-time subscription to this user's document — this is what keeps a
+  // computer and a phone signed into the same account in sync.
+  useEffect(() => {
+    if (!firebaseReady || !uid) {
+      setSyncState('offline');
+      return;
+    }
+    setSyncState('syncing');
+    const ref = doc(db, 'users', uid);
+    const unsub = onSnapshot(
+      ref,
+      (snap) => {
+        if (snap.exists()) {
+          const data = snap.data();
+          const next = { tStocks: data.tStocks || {}, bStocks: data.bStocks || {}, tNotes: data.tNotes || {}, tLocMap: data.tLocMap || {}, bLocMap: data.bLocMap || {}, locs: data.locs && data.locs.length ? data.locs : DEFAULT_LOCS };
+          const json = snapshotOf(next);
+          if (json !== lastRemoteJson.current) {
+            lastRemoteJson.current = json;
+            setTStocks(next.tStocks);
+            setBStocks(next.bStocks);
+            setTNotes(next.tNotes);
+            setTLocMap(next.tLocMap);
+            setBLocMap(next.bLocMap);
+            setLocs(next.locs);
+          }
+        } else if (!checkedForImport.current) {
+          const legacy = readLegacyData();
+          if (legacy) setPendingImport(legacy);
+        }
+        checkedForImport.current = true;
+        setSyncState('synced');
+      },
+      () => setSyncState('offline')
+    );
+    return unsub;
+  }, [uid]);
+
+  // Debounced push to Firestore + a local mirror for instant reloads.
+  useEffect(() => {
+    save(`cs_${uid}_tStocks`, tStocks);
+    save(`cs_${uid}_bStocks`, bStocks);
+    save(`cs_${uid}_tNotes`, tNotes);
+    save(`cs_${uid}_tLocMap`, tLocMap);
+    save(`cs_${uid}_bLocMap`, bLocMap);
+    save(`cs_${uid}_locs`, locs);
+    if (!firebaseReady || !uid) return;
+    const json = snapshotOf({ tStocks, bStocks, tNotes, tLocMap, bLocMap, locs });
+    const t = setTimeout(() => {
+      lastRemoteJson.current = json;
+      setDoc(
+        doc(db, 'users', uid),
+        { tStocks, bStocks, tNotes, tLocMap, bLocMap, locs, updatedAt: serverTimestamp() },
+        { merge: true }
+      ).catch(() => setSyncState('offline'));
+    }, 600);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tStocks, bStocks, tNotes, tLocMap, bLocMap, locs, uid]);
 
   function setTheme(t) {
     setThemeState(t);
@@ -76,7 +153,6 @@ export function StateProvider({ children }) {
     toast('Заметка сохранена ✓');
   }
 
-  // Thread storage location
   function setLoc(tid, lid) {
     setTLocMap((s) => ({ ...s, [tid]: lid }));
     toast('Место хранения сохранено ✓');
@@ -89,7 +165,6 @@ export function StateProvider({ children }) {
     });
   }
 
-  // Bead storage location (mirrors thread location logic above)
   function setBLoc(bid, lid) {
     setBLocMap((s) => ({ ...s, [bid]: lid }));
     toast('Место хранения сохранено ✓');
@@ -124,9 +199,25 @@ export function StateProvider({ children }) {
     });
   }
 
+  function importLegacyData() {
+    if (!pendingImport) return;
+    if (pendingImport.tStocks) setTStocks(pendingImport.tStocks);
+    if (pendingImport.bStocks) setBStocks(pendingImport.bStocks);
+    if (pendingImport.tNotes) setTNotes(pendingImport.tNotes);
+    if (pendingImport.tLocMap) setTLocMap(pendingImport.tLocMap);
+    if (pendingImport.bLocMap) setBLocMap(pendingImport.bLocMap);
+    if (pendingImport.locs && pendingImport.locs.length) setLocs(pendingImport.locs);
+    setPendingImport(null);
+    toast('Данные импортированы ✓');
+  }
+  function dismissImport() {
+    setPendingImport(null);
+  }
+
   const value = {
     tStocks, bStocks, tNotes, tLocMap, bLocMap, locs, theme,
-    toastMsg, toastShow, toast,
+    toastMsg, toastShow, toast, syncState,
+    pendingImport, importLegacyData, dismissImport,
     setTheme, tQ, bQ, setNote, setLoc, clearLoc, setBLoc, clearBLoc, addLoc, delLoc,
   };
 

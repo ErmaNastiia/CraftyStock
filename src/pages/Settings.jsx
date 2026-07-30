@@ -1,17 +1,21 @@
 import { DMC, GAMMA, BEADS, SHL, FNL } from '../catalogData';
 import { MAP_ENTRIES } from '../mappingData';
 import { useAppState } from '../StateContext';
+import { useAuth } from '../AuthContext';
+import { dlFile } from '../helpers';
+import SectionLabel from '../components/ui/SectionLabel';
+import StatTile from '../components/ui/StatTile';
+import { IconThread, IconBead, IconDownload, IconShuffle, IconChevronRight, IconSun, IconMoon } from '../components/ui/icons';
 
-function dlFile(name, content, type = 'text/plain') {
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(new Blob([content], { type }));
-  a.download = name;
-  a.click();
-  URL.revokeObjectURL(a.href);
-}
+const SYNC_LABEL = {
+  synced: { text: 'Синхронизировано', tone: 'p-green' },
+  syncing: { text: 'Синхронизация...', tone: 'p-neutral' },
+  offline: { text: 'Нет связи — сохранено локально', tone: 'p-neutral' },
+};
 
 export default function Settings() {
-  const { tStocks, bStocks, tNotes, tLocMap, locs, theme, setTheme, toast } = useAppState();
+  const { tStocks, bStocks, tNotes, tLocMap, locs, theme, setTheme, toast, syncState } = useAppState();
+  const { user, signOutUser } = useAuth();
 
   const ti = Object.values(tStocks).filter((v) => v > 0).length;
   const bi = Object.values(bStocks).filter((v) => v > 0).length;
@@ -24,14 +28,14 @@ export default function Settings() {
       const loc = locs.find((l) => l.id === tLocMap[t.id]);
       rows.push([t.brand, t.article, t.name_ru, t.hex, qty, loc ? loc.name : '', (tNotes[t.id] || '').replace(/,/g, ';')].join(','));
     });
-    dlFile('craftystock_threads.csv', '\uFEFF' + rows.join('\n'), 'text/csv;charset=utf-8');
+    dlFile('craftystock_threads.csv', '﻿' + rows.join('\n'), 'text/csv;charset=utf-8');
     toast('Нитки экспортированы ✓');
   }
 
   function exportBeadsCSV() {
     const rows = [['Бренд', 'Артикул', 'Название', 'Цвет HEX', 'Форма', 'Размер', 'Покрытие', 'Граммов'].join(',')];
     BEADS.forEach((b) => rows.push([b.brand, b.article, b.name, b.hex, SHL[b.shape] || b.shape, b.size, FNL[b.finish] || b.finish, bStocks[b.id] || 0].join(',')));
-    dlFile('craftystock_beads.csv', '\uFEFF' + rows.join('\n'), 'text/csv;charset=utf-8');
+    dlFile('craftystock_beads.csv', '﻿' + rows.join('\n'), 'text/csv;charset=utf-8');
     toast('Бисер экспортирован ✓');
   }
 
@@ -55,63 +59,72 @@ export default function Settings() {
   ];
 
   const exportItems = [
-    { ic: '🧵', lb: 'Нитки CSV', ds: 'Артикулы, цвета, запасы', fn: exportThreadsCSV },
-    { ic: '🔮', lb: 'Бисер CSV', ds: 'Артикулы, формы, граммы', fn: exportBeadsCSV },
-    { ic: '💾', lb: 'Полный бэкап JSON', ds: 'Все данные для восстановления', fn: exportBackup },
+    { Icon: IconThread, lb: 'Нитки CSV', ds: 'Артикулы, цвета, запасы', fn: exportThreadsCSV },
+    { Icon: IconBead, lb: 'Бисер CSV', ds: 'Артикулы, формы, граммы', fn: exportBeadsCSV },
+    { Icon: IconDownload, lb: 'Полный бэкап JSON', ds: 'Все данные для восстановления', fn: exportBackup },
   ];
 
   const catalogRows = [
-    ['🧵', 'DMC', DMC.length + ' цветов'],
-    ['🧵', 'Gamma', GAMMA.length + ' цветов'],
-    ['🔮', 'Miyuki', BEADS.filter((b) => b.brand === 'Miyuki').length + ' цветов'],
-    ['🔮', 'Preciosa', BEADS.filter((b) => b.brand === 'Preciosa').length + ' цветов'],
-    ['🔗', 'DMC↔Gamma', MAP_ENTRIES.length + ' соответствий'],
+    [IconThread, 'DMC', DMC.length + ' цветов'],
+    [IconThread, 'Gamma', GAMMA.length + ' цветов'],
+    [IconBead, 'Miyuki', BEADS.filter((b) => b.brand === 'Miyuki').length + ' цветов'],
+    [IconBead, 'Preciosa', BEADS.filter((b) => b.brand === 'Preciosa').length + ' цветов'],
+    [IconShuffle, 'DMC↔Gamma', MAP_ENTRIES.length + ' соответствий'],
   ];
 
   return (
     <div className="scr" id="s-settings">
-      <div style={{ padding: '22px 26px', overflowY: 'auto', height: '100%', maxWidth: 540 }}>
+      <div className="settings-wrap">
         <div className="pt" style={{ marginBottom: 4 }}>Настройки</div>
-        <div className="slbl" style={{ marginTop: 16 }}>Моя коллекция</div>
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8, marginBottom: 4 }}>
+        <SectionLabel>Аккаунт</SectionLabel>
+        <div className="slist" style={{ marginBottom: 4 }}>
+          <div className="srow">
+            <span style={{ flex: 1, fontSize: 14, color: 'var(--text)' }}>{user?.email}</span>
+            <span className={`pill ${SYNC_LABEL[syncState]?.tone || 'p-neutral'}`}>{SYNC_LABEL[syncState]?.text || syncState}</span>
+          </div>
+          <button className="export-btn" onClick={signOutUser}>
+            <span style={{ flex: 1, fontSize: 14, color: 'var(--red)' }}>Выйти из аккаунта</span>
+          </button>
+        </div>
+        <SectionLabel>Моя коллекция</SectionLabel>
+        <div className="settings-stats-grid">
           {stats.map((s) => (
-            <div className="stile" key={s.l}>
-              <div className="sbig">{s.v}</div>
-              <div style={{ fontSize: 11, color: 'var(--text3)', marginTop: 2 }}>{s.l}</div>
-              {s.s && <div style={{ fontSize: 10, fontWeight: 500, color: s.sc, marginTop: 3 }}>{s.s}</div>}
-            </div>
+            <StatTile key={s.l} value={s.v} label={s.l} sublabel={s.s} tone={s.sc} />
           ))}
         </div>
-        <div className="slbl">Тема оформления</div>
-        <div style={{ display: 'flex', gap: 6, marginBottom: 4 }}>
-          {[['light', '☀️ Светлая'], ['dark', '🌙 Тёмная']].map(([k, l]) => (
-            <button key={k} className={`ch${theme === k ? ' on' : ''}`} style={{ flex: 1, textAlign: 'center' }} onClick={() => setTheme(k)}>{l}</button>
-          ))}
+        <SectionLabel>Тема оформления</SectionLabel>
+        <div className="settings-theme-row">
+          <button className={`ch settings-theme-btn${theme === 'light' ? ' on' : ''}`} onClick={() => setTheme('light')}>
+            <IconSun size={14} /> Светлая
+          </button>
+          <button className={`ch settings-theme-btn${theme === 'dark' ? ' on' : ''}`} onClick={() => setTheme('dark')}>
+            <IconMoon size={14} /> Тёмная
+          </button>
         </div>
-        <div className="slbl">Экспорт данных</div>
+        <SectionLabel>Экспорт данных</SectionLabel>
         <div className="slist" style={{ marginBottom: 4 }}>
           {exportItems.map((x) => (
             <button className="export-btn" key={x.lb} onClick={x.fn}>
-              <span style={{ fontSize: 18, width: 26, textAlign: 'center' }}>{x.ic}</span>
+              <span className="icon-tile"><x.Icon size={17} strokeWidth={1.7} /></span>
               <div style={{ flex: 1 }}>
                 <div style={{ fontSize: 14, color: 'var(--text)' }}>{x.lb}</div>
                 <div style={{ fontSize: 11, color: 'var(--text3)', marginTop: 1 }}>{x.ds}</div>
               </div>
-              <span style={{ color: 'var(--text3)' }}>›</span>
+              <IconChevronRight size={15} className="icon-muted" />
             </button>
           ))}
         </div>
-        <div className="slbl">Каталоги</div>
+        <SectionLabel>Каталоги</SectionLabel>
         <div className="slist">
-          {catalogRows.map(([ic, lb, vl]) => (
+          {catalogRows.map(([Icon, lb, vl]) => (
             <div className="srow" key={lb}>
-              <span style={{ fontSize: 17, width: 26, textAlign: 'center' }}>{ic}</span>
+              <span className="icon-tile"><Icon size={16} strokeWidth={1.7} /></span>
               <span style={{ flex: 1, fontSize: 14, color: 'var(--text)' }}>{lb}</span>
               <span style={{ fontSize: 13, color: 'var(--text3)' }}>{vl}</span>
             </div>
           ))}
         </div>
-        <div style={{ textAlign: 'center', fontSize: 11, color: 'var(--text4)', marginTop: 22 }}>CraftyStock v1.0.0 · Сделано с 🧵</div>
+        <div className="settings-footer">CraftyStock v2.0.0 · Сделано с <IconThread size={12} strokeWidth={2} /></div>
       </div>
     </div>
   );
