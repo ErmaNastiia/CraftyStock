@@ -14,13 +14,14 @@ import MatchQualityBadge from '../components/ui/MatchQualityBadge';
 import LocationPickerModal from '../components/LocationPickerModal';
 import Modal from '../components/Modal';
 import Button from '../components/ui/Button';
-import { IconCamera, IconMapPin } from '../components/ui/icons';
+import PhotoUploader from '../components/PhotoUploader';
+import { IconMapPin } from '../components/ui/icons';
 
 const ALL = [...DMC, ...GAMMA];
 
 export default function ThreadDetail() {
   const { id } = useParams();
-  const { tStocks, tQ, tLocMap, locs, tNotes, setNote, setLoc, clearLoc } = useAppState();
+  const { tStocks, tQ, tLocMap, locs, tNotes, setNote, setLoc, clearLoc, tPhotos, photoUploading, uploadPhoto, removePhoto } = useAppState();
   const [locModal, setLocModal] = useState(false);
   const [noteModal, setNoteModal] = useState(false);
   const [noteDraft, setNoteDraft] = useState('');
@@ -37,12 +38,13 @@ export default function ThreadDetail() {
     <div className="scr" id="s-td">
       <DetailHeader title={`${t.brand} ${t.article}`} backTo="/threads" />
       <div className="sa" style={{ paddingTop: 0 }}>
-        <div className="detail-hero" style={{ background: t.hex }}>
-          <div className="photo-hint">
-            <IconCamera size={16} strokeWidth={1.6} />
-            Добавить фото
-          </div>
-        </div>
+        <PhotoUploader
+          hex={t.hex}
+          photoUrl={tPhotos[t.id]}
+          uploading={Boolean(photoUploading[`thread_${t.id}`])}
+          onUpload={(file) => uploadPhoto('thread', t.id, file)}
+          onRemove={() => removePhoto('thread', t.id)}
+        />
         <div className="detail-body">
           <SectionLabel>Нитка</SectionLabel>
           <Card>

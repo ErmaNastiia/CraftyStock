@@ -9,11 +9,12 @@ import SectionLabel from '../components/ui/SectionLabel';
 import Stepper from '../components/ui/Stepper';
 import QuickAdjust from '../components/ui/QuickAdjust';
 import LocationPickerModal from '../components/LocationPickerModal';
-import { IconCamera, IconMapPin } from '../components/ui/icons';
+import PhotoUploader from '../components/PhotoUploader';
+import { IconMapPin } from '../components/ui/icons';
 
 export default function BeadDetail() {
   const { id } = useParams();
-  const { bStocks, bQ, bLocMap, locs, setBLoc, clearBLoc } = useAppState();
+  const { bStocks, bQ, bLocMap, locs, setBLoc, clearBLoc, bPhotos, photoUploading, uploadPhoto, removePhoto } = useAppState();
   const [locModal, setLocModal] = useState(false);
   const b = BEADS.find((x) => x.id === id);
   if (!b) return null;
@@ -31,11 +32,14 @@ export default function BeadDetail() {
     <div className="scr" id="s-bd">
       <DetailHeader title={`${b.brand} ${b.article}`} backTo="/beads" />
       <div className="sa" style={{ paddingTop: 0 }}>
-        <div className="detail-hero detail-hero-sm" style={{ background: b.hex }}>
-          <div className="photo-hint">
-            <IconCamera size={16} strokeWidth={1.6} /> Добавить фото
-          </div>
-        </div>
+        <PhotoUploader
+          hex={b.hex}
+          compact
+          photoUrl={bPhotos[b.id]}
+          uploading={Boolean(photoUploading[`bead_${b.id}`])}
+          onUpload={(file) => uploadPhoto('bead', b.id, file)}
+          onRemove={() => removePhoto('bead', b.id)}
+        />
         <div className="detail-body">
           <SectionLabel>Бисер</SectionLabel>
           <Card>

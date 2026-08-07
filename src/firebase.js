@@ -1,12 +1,13 @@
 // Firebase wiring for CraftyStock. The SDK itself is loaded from
-// src/vendor/firebase-bundle.js (a pre-bundled app+auth+firestore build) —
-// see that file's header for why. The project config below comes from your
-// own Firebase project; see README.md for the step-by-step setup.
+// src/vendor/firebase-bundle.js (a pre-bundled app+auth+firestore+storage
+// build) — see that file's header for why. The project config below comes
+// from your own Firebase project; see README.md for the step-by-step setup.
 import {
   initializeApp,
   getAuth,
   getFirestore,
   enableIndexedDbPersistence,
+  getStorage,
 } from "./vendor/firebase-bundle.js";
 
 const firebaseConfig = {
@@ -23,12 +24,13 @@ export const firebaseReady = Boolean(
   firebaseConfig.apiKey && firebaseConfig.projectId,
 );
 
-let app, auth, db;
+let app, auth, db, storage;
 
 if (firebaseReady) {
   app = initializeApp(firebaseConfig);
   auth = getAuth(app);
   db = getFirestore(app);
+  storage = getStorage(app);
   // Lets the app keep working offline and syncs automatically once back
   // online — this is also what makes "computer + phone at the same time"
   // work: each device caches locally and reconciles through Firestore.
@@ -38,9 +40,7 @@ if (firebaseReady) {
   });
 } else {
   // eslint-disable-next-line no-console
-  console.warn(
-    "Uh oh! We've got a problem.<p>{error.message || error.statusText}</p>",
-  );
+  console.warn("CraftyStock: Firebase config is missing.");
 }
 
-export { auth, db };
+export { auth, db, storage };

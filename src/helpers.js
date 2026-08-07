@@ -44,6 +44,49 @@ export function dlFile(name, content, type = 'text/plain') {
 // Splits a free-form block of text into individual article numbers.
 // Accepts commas, semicolons, whitespace and newlines as separators, and
 // de-duplicates while preserving the first-seen order.
+// Downscales + re-encodes an image file client-side before it's uploaded —
+// phone camera photos are routinely 4-12MB, which is slow to upload and
+// wasteful to store for something that only needs to look good at swatch
+// size. Draws onto a canvas capped at `maxDim` on the long edge and
+// re-exports as JPEG. Resolves to a Blob ready to hand to Storage.
+export function compressImage(file, { maxDim = 1280, quality = 0.82 } = {}) {
+  return new Promise((resolve, reject) => {
+    if (!file || !file.type || !file.type.startsWith('image/')) {
+      reject(new Error('not-an-image'));
+      return;
+    }
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+    img.onload = () => {
+      let { width, height } = img;
+      if (width > maxDim || height > maxDim) {
+        const scale = maxDim / Math.max(width, height);
+        width = Math.round(width * scale);
+        height = Math.round(height * scale);
+      }
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d');
+      ctx.drawImage(img, 0, 0, width, height);
+      canvas.toBlob(
+        (blob) => {
+          URL.revokeObjectURL(url);
+          if (blob) resolve(blob);
+          else reject(new Error('compress-failed'));
+        },
+        'image/jpeg',
+        quality
+      );
+    };
+    img.onerror = () => {
+      URL.revokeObjectURL(url);
+      reject(new Error('image-load-failed'));
+    };
+    img.src = url;
+  });
+}
+
 export function parseArticleList(raw) {
   const seen = new Set();
   const out = [];

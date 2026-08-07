@@ -1,6 +1,16 @@
 import { createContext, useContext, useEffect, useRef, useState } from 'react';
-import { doc, setDoc, onSnapshot, serverTimestamp } from './vendor/firebase-bundle.js';
-import { db, firebaseReady } from './firebase';
+import {
+  doc,
+  setDoc,
+  onSnapshot,
+  serverTimestamp,
+  ref as storageRef,
+  uploadBytes,
+  getDownloadURL,
+  deleteObject,
+} from './vendor/firebase-bundle.js';
+import { db, storage, firebaseReady } from './firebase';
+import { compressImage } from './helpers';
 
 const StateCtx = createContext(null);
 
@@ -10,7 +20,7 @@ const DEFAULT_LOCS = [
   { id: 'l3', name: 'Зелёная папка', desc: 'Схемы и образцы', color: '#2FA85F' },
 ];
 
-const FIELDS = ['tStocks', 'bStocks', 'tNotes', 'tLocMap', 'bLocMap', 'locs'];
+const FIELDS = ['tStocks', 'bStocks', 'tNotes', 'tLocMap', 'bLocMap', 'locs', 'tPhotos', 'bPhotos'];
 const LEGACY_KEYS = { tStocks: 'cs_tStocks', bStocks: 'cs_bStocks', tNotes: 'cs_tNotes', tLocMap: 'cs_tLocMap', bLocMap: 'cs_bLocMap', locs: 'cs_locs' };
 
 function load(key, fallback) {
@@ -56,9 +66,12 @@ export function StateProvider({ uid, children }) {
   const [tLocMap, setTLocMap] = useState(() => load(`cs_${uid}_tLocMap`, {}));
   const [bLocMap, setBLocMap] = useState(() => load(`cs_${uid}_bLocMap`, {}));
   const [locs, setLocs] = useState(() => load(`cs_${uid}_locs`, DEFAULT_LOCS));
+  const [tPhotos, setTPhotos] = useState(() => load(`cs_${uid}_tPhotos`, {}));
+  const [bPhotos, setBPhotos] = useState(() => load(`cs_${uid}_bPhotos`, {}));
   const [theme, setThemeState] = useState(() => localStorage.getItem('cs_theme') || 'light');
   const [syncState, setSyncState] = useState('syncing'); // 'syncing' | 'synced' | 'offline'
   const [pendingImport, setPendingImport] = useState(null);
+  const [photoUploading, setPhotoUploading] = useState({}); // `${kind}_${id}` -> true
   const [toastMsg, setToastMsg] = useState('');
   const [toastShow, setToastShow] = useState(false);
   const toastTimer = useRef(null);
@@ -87,13 +100,22 @@ export function StateProvider({ uid, children }) {
       return;
     }
     setSyncState('syncing');
-    const ref = doc(db, 'users', uid);
+    const docRef = doc(db, 'users', uid);
     const unsub = onSnapshot(
-      ref,
+      docRef,
       (snap) => {
         if (snap.exists()) {
           const data = snap.data();
-          const next = { tStocks: data.tStocks || {}, bStocks: data.bStocks || {}, tNotes: data.tNotes || {}, tLocMap: data.tLocMap || {}, bLocMap: data.bLocMap || {}, locs: data.locs && data.locs.length ? data.locs : DEFAULT_LOCS };
+          const next = {
+            tStocks: data.tStocks || {},
+            bStocks: data.bStocks || {},
+            tNotes: data.tNotes || {},
+            tLocMap: data.tLocMap || {},
+            bLocMap: data.bLocMap || {},
+            locs: data.locs && data.locs.length ? data.locs : DEFAULT_LOCS,
+            tPhotos: data.tPhotos || {},
+            bPhotos: data.bPhotos || {},
+          };
           const json = snapshotOf(next);
           if (json !== lastRemoteJson.current) {
             lastRemoteJson.current = json;
@@ -103,6 +125,8 @@ export function StateProvider({ uid, children }) {
             setTLocMap(next.tLocMap);
             setBLocMap(next.bLocMap);
             setLocs(next.locs);
+            setTPhotos(next.tPhotos);
+            setBPhotos(next.bPhotos);
           }
         } else if (!checkedForImport.current) {
           const legacy = readLegacyData();
@@ -124,19 +148,21 @@ export function StateProvider({ uid, children }) {
     save(`cs_${uid}_tLocMap`, tLocMap);
     save(`cs_${uid}_bLocMap`, bLocMap);
     save(`cs_${uid}_locs`, locs);
+    save(`cs_${uid}_tPhotos`, tPhotos);
+    save(`cs_${uid}_bPhotos`, bPhotos);
     if (!firebaseReady || !uid) return;
-    const json = snapshotOf({ tStocks, bStocks, tNotes, tLocMap, bLocMap, locs });
+    const json = snapshotOf({ tStocks, bStocks, tNotes, tLocMap, bLocMap, locs, tPhotos, bPhotos });
     const t = setTimeout(() => {
       lastRemoteJson.current = json;
       setDoc(
         doc(db, 'users', uid),
-        { tStocks, bStocks, tNotes, tLocMap, bLocMap, locs, updatedAt: serverTimestamp() },
+        { tStocks, bStocks, tNotes, tLocMap, bLocMap, locs, tPhotos, bPhotos, updatedAt: serverTimestamp() },
         { merge: true }
       ).catch(() => setSyncState('offline'));
     }, 600);
     return () => clearTimeout(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [tStocks, bStocks, tNotes, tLocMap, bLocMap, locs, uid]);
+  }, [tStocks, bStocks, tNotes, tLocMap, bLocMap, locs, tPhotos, bPhotos, uid]);
 
   function setTheme(t) {
     setThemeState(t);
@@ -199,6 +225,66 @@ export function StateProvider({ uid, children }) {
     });
   }
 
+  // Photos: uploaded to Firebase Storage at a fixed per-item path (so a
+  // re-upload just overwrites the old file — no orphaned files to track or
+  // clean up), compressed client-side first, with only the resulting
+  // download URL kept in the synced Firestore state.
+  async function uploadPhoto(kind, id, file) {
+    const key = `${kind}_${id}`;
+    if (!firebaseReady || !storage || !uid) {
+      toast('Фото недоступно офлайн');
+      return;
+    }
+    setPhotoUploading((s) => ({ ...s, [key]: true }));
+    try {
+      const blob = await compressImage(file);
+      const fileRef = storageRef(storage, `users/${uid}/photos/${key}.jpg`);
+      await uploadBytes(fileRef, blob, { contentType: 'image/jpeg' });
+      const url = await getDownloadURL(fileRef);
+      // Cache-bust so the new photo shows immediately even though the
+      // storage path (and therefore the URL host part) is unchanged.
+      const bustUrl = `${url}${url.includes('?') ? '&' : '?'}t=${Date.now()}`;
+      if (kind === 'thread') setTPhotos((s) => ({ ...s, [id]: bustUrl }));
+      else setBPhotos((s) => ({ ...s, [id]: bustUrl }));
+      toast('Фото сохранено ✓');
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.error('Photo upload failed:', err);
+      toast('Не удалось загрузить фото');
+    } finally {
+      setPhotoUploading((s) => {
+        const n = { ...s };
+        delete n[key];
+        return n;
+      });
+    }
+  }
+
+  async function removePhoto(kind, id) {
+    const key = `${kind}_${id}`;
+    if (storage && uid) {
+      try {
+        await deleteObject(storageRef(storage, `users/${uid}/photos/${key}.jpg`));
+      } catch {
+        // Already gone / offline — fine, we still clear it from state below.
+      }
+    }
+    if (kind === 'thread') {
+      setTPhotos((s) => {
+        const n = { ...s };
+        delete n[id];
+        return n;
+      });
+    } else {
+      setBPhotos((s) => {
+        const n = { ...s };
+        delete n[id];
+        return n;
+      });
+    }
+    toast('Фото удалено ✓');
+  }
+
   function importLegacyData() {
     if (!pendingImport) return;
     if (pendingImport.tStocks) setTStocks(pendingImport.tStocks);
@@ -215,10 +301,11 @@ export function StateProvider({ uid, children }) {
   }
 
   const value = {
-    tStocks, bStocks, tNotes, tLocMap, bLocMap, locs, theme,
-    toastMsg, toastShow, toast, syncState,
+    tStocks, bStocks, tNotes, tLocMap, bLocMap, locs, theme, tPhotos, bPhotos,
+    toastMsg, toastShow, toast, syncState, photoUploading,
     pendingImport, importLegacyData, dismissImport,
     setTheme, tQ, bQ, setNote, setLoc, clearLoc, setBLoc, clearBLoc, addLoc, delLoc,
+    uploadPhoto, removePhoto,
   };
 
   return <StateCtx.Provider value={value}>{children}</StateCtx.Provider>;
