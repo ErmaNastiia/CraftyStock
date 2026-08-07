@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { TABS } from '../catalogData';
+import { TABS } from '../tabs';
 import { useAppState } from '../StateContext';
 import { IconThread, IconBead, IconShuffle, IconPackage, IconSettings, IconSun, IconMoon } from './ui/icons';
 

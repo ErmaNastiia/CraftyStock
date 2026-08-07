@@ -1,13 +1,3 @@
-// `icon` is a lookup key resolved to a component in Sidebar.jsx — kept as a
-// string here so this data file stays framework-agnostic.
-export const TABS = [
-  { id: "threads", label: "Нитки", icon: "thread" },
-  { id: "beads", label: "Бисер", icon: "bead" },
-  { id: "converter", label: "Конвертер", icon: "shuffle" },
-  { id: "storage", label: "Хранение", icon: "package" },
-  { id: "settings", label: "Настройки", icon: "settings" },
-];
-
 // DMC catalog — generated from dmc_gamma_map.json (445 articles).
 // hex is the exact-match Gamma color where available (falls back to the
 // average of approximate matches when no exact match exists for that DMC
